@@ -5,7 +5,7 @@
     <title>BA Spine Viewer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="spine-player.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
     <style>
         body { background: #1a1a1a; color: #eee; font-family: sans-serif; margin: 0; overflow: hidden; display: flex; }
 
@@ -459,7 +459,10 @@
                 },
                 success: function(p) {
                     enableCanvasWheelScale(p);
-                    p.animationState.setAnimation(0, "Idle_01", true);
+                    if(selectedCharacter!=="terramachina_spr")
+                        p.animationState.setAnimation(0, "Idle_01", true);
+                    else
+                        p.animationState.setAnimation(0, "00", true);
                     if(!isMobile){
                         p.canvas.style.transformOrigin = "center center";
                         p.canvas.style.width = "200% !important";

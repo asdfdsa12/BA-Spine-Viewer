@@ -1,2 +1,1 @@
-# asdfdsa12.github.io
-asdf
+# Blue Archive spine viewer

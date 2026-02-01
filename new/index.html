@@ -5,7 +5,7 @@
     <title>BA Spine Viewer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../favicon.ico">
     <style>
         body { background: #1a1a1a; color: #eee; font-family: sans-serif; margin: 0; overflow: hidden; display: flex; }
 
@@ -132,6 +132,57 @@
             border-color: #63b3ed;
             color: #ffffff;
         }
+
+        #diorama-list {
+            max-height: 300px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        #diorama-list::-webkit-scrollbar { width: 6px; }
+        #diorama-list::-webkit-scrollbar-thumb {
+            background: #555;
+            border-radius: 10px;
+        }
+
+        #diorama-list button {
+            width: 100%;
+            min-height: 45px; 
+            padding: 0 15px;
+            
+            background: #444;
+            color: #eee;
+            border: 1px solid #555;
+            border-radius: 4px;
+            cursor: pointer;
+            
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1;
+            
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.2s;
+        }
+
+        #diorama-list button:hover {
+            background: #3a3a3a;
+            border-color: #2b6cb0;
+        }
+
+        #diorama-list button.active {
+            background: #2b6cb0;
+            border-color: #63b3ed;
+            color: #ffffff;
+        }
+
     </style>
 </head>
 <body>
@@ -761,6 +812,12 @@
             </div>
             <div id="animation-list"></div>
         </div>
+        <div class="anim-container-wrapper">
+            <div class="slider-header" style="margin-bottom: 10px;">
+                <span>배경 교체 (일부 캐릭터 한정)</span>
+            </div>
+            <div id="diorama-list"></div>
+        </div>
     </div>
 
     <div id="player-container"></div>
@@ -879,6 +936,47 @@
                 };
                 list.appendChild(btn);
             });
+        }
+
+        function buildDioramaList(player) {
+            const list = document.getElementById("diorama-list");
+            if (!list) return;
+            list.innerHTML = "";
+
+            const skins = player.skeleton.data.skins;
+            const skinNames = skins.map(s => s.name);
+
+            const dioramaSkins = skinNames.filter(name => 
+                name.toLowerCase().includes("diorama")
+            );
+
+            const defaultBtn = document.createElement("button");
+            defaultBtn.textContent = "default";
+            defaultBtn.classList.add("active");
+            defaultBtn.onclick = () => {
+                updateDioramaActive(defaultBtn);
+                player.skeleton.setSkinByName("default");
+                player.skeleton.setSlotsToSetupPose();
+            };
+            list.appendChild(defaultBtn);
+
+            dioramaSkins.forEach(skinName => {
+                const btn = document.createElement("button");
+                btn.textContent = skinName;
+
+                btn.onclick = () => {
+                    updateDioramaActive(btn);
+                    
+                    player.skeleton.setSkinByName(skinName);
+                    player.skeleton.setSlotsToSetupPose();
+                };
+                list.appendChild(btn);
+            });
+
+            function updateDioramaActive(activeBtn) {
+                Array.from(list.children).forEach(b => b.classList.remove('active'));
+                activeBtn.classList.add('active');
+            }
         }
 
         function toggleFullscreen() {
@@ -1033,7 +1131,8 @@
                         p.canvas.style.top = "-50%";
                         p.canvas.style.transform = "scale(0.5);";
                     }
-                    buildAnimationList(player);
+                    buildAnimationList(p);
+                    buildDioramaList(p)
                 }
             });
         }
