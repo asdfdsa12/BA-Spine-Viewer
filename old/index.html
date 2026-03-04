@@ -84,7 +84,7 @@
         }
 
         #animation-list {
-            max-height: 300px;
+            max-height: 150px;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
@@ -99,7 +99,7 @@
 
         #animation-list button {
             width: 100%;
-            min-height: 45px; 
+            min-height: 30px; 
             padding: 0 15px;
             
             background: #444;
@@ -177,11 +177,12 @@
         </button>
         <button onclick="takeScreenshot()" style="height: 35px; font-size: 15px">이미지 다운로드</button>
         <div class="anim-container-wrapper">
-            <div class="slider-header" style="margin-bottom: 10px;">
+            <div class="slider-header" style="margin-bottom: 15px;">
                 <span>애니메이션 목록</span>
             </div>
             <div id="animation-list"></div>
         </div>
+        <button onclick="location.href='../index.html'" style="height: 35px; font-size:15px">메인으로</button>
     </div>
 
     <div id="player-container"></div>
