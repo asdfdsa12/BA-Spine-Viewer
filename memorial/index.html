@@ -65,6 +65,30 @@
             }
         }
 
+        #subtitle-container {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #007bff;
+            text-align: center;
+            font-size: 1.2rem;
+            z-index: 1000;
+            display: none;
+            pointer-events: none;
+        }
+
+        #subtitle-text {
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+
         .search-container { position: relative; width: 100%; }
         #charSearch { 
             width: 100%; padding: 12px; border-radius: 4px; background: #444; 
@@ -469,13 +493,47 @@
         <button onclick="location.href='../'" style="height: 35px; font-size:15px">메인으로</button>
     </div>
 
-    <div id="player-container"></div>
+    <div id="viewer-container">
+        <div id="player-container"></div>
+        
+        <div id="subtitle-container">
+            <div id="subtitle-text"></div>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
     
     <script>
         let player = null;
         let selectedCharacter = "CH0222_home";
+        let currentAudio = null;
+
+        let scriptData = null;
+
+        fetch('assets/_Script.json')
+            .then(response => response.json())
+            .then(data => {
+                scriptData = data.character[0];
+            });
+
+        function displaySubtitle(selectedCharacter, animName) {
+            const subtitleDiv = document.getElementById("subtitle-container");
+            const subtitleText = document.getElementById("subtitle-text");
+
+            const characterScripts = scriptData[selectedCharacter];
+            if (characterScripts) {
+                const baseAnimName = animName.match(/Talk_\d+/)?.[0] || animName;
+                const scriptItem = characterScripts.find(item => item.animation === baseAnimName);
+
+                if (scriptItem) {
+                    subtitleText.innerText = scriptItem.script;
+                    subtitleDiv.style.display = "block";
+                    
+                    return;
+                }
+            }
+            subtitleDiv.style.display = "none";
+        }
 
         function enableCanvasDrag() {
             const container = document.getElementById("player-container");
@@ -565,6 +623,11 @@
                 btn.textContent = displayName;
 
                 btn.onclick = () => {
+                    if (currentAudio) {
+                        currentAudio.pause();
+                        currentAudio.src="";
+                        currentAudio = null;
+                    }
                     Array.from(list.children).forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
 
@@ -701,9 +764,31 @@
             link.click();
         }
 
+        function playSfx(fileName) {
+            const audioPath = `assets/audio/${fileName}.ogg`;
+            currentAudio = new Audio(audioPath);
+            
+            currentAudio.volume = 0.5;
+            currentAudio.play().catch(err => {
+                console.warn("123", err);
+            });
+        }
+
         function loadSpine() {
             const container = document.getElementById('player-container');
             container.innerHTML = '';
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.src="";
+                currentAudio = null;
+            }
+            
+            const subtitleDiv = document.getElementById("subtitle-container");
+            const subtitleText = document.getElementById("subtitle-text");
+            if (subtitleDiv) {
+                subtitleDiv.style.display = "none";
+                subtitleText.innerText = "";
+            }
 
             player = new spine.SpinePlayer("player-container", {
                 skelUrl: `assets/${selectedCharacter}.skel`, 
@@ -717,6 +802,8 @@
                     padLeft: "-8%", padRight: "-8%", padTop: "-8%", padBottom: "-8%"
                 },
                 success: function(p) {
+                    player.animationState.clearTracks();
+                    player.animationState.clearListeners();
                     const anims = p.skeleton.data;
                     enableCanvasWheelScale(p);
                     if(selectedCharacter!=="arona_workpage"&&selectedCharacter!=="arona_workpage_daytime"&&selectedCharacter!=="arona_workpage_nighttime"){
@@ -725,6 +812,18 @@
                     else{
                         p.animationState.setAnimation(0, "Idle_background_00", true);
                     }
+                    p.animationState.addListener({
+                        start: function(entry) {
+                            displaySubtitle(selectedCharacter, entry.animation.name);
+                        },
+                        event: function(entry, event) {
+                            if (event.data.name === "Talk" && p === player) {
+                                const audioFileName = event.stringValue;
+                                if (audioFileName) playSfx(audioFileName);
+                            }
+                        }
+                        
+                    });
                     const allAnimations = p.skeleton.data.animations;
                     let trackIndex = 10;
                     allAnimations.forEach(anim => {
