@@ -764,8 +764,11 @@
             link.click();
         }
 
-        function playSfx(fileName) {
-            const audioPath = `assets/audio/${fileName}.ogg`;
+        function playSfx(selectedCharacter,fileName) {
+            const charCodeMatch = fileName.match(/^(.+?)(?=_memoriallobby|_)/i);
+            const folderName = charCodeMatch ? charCodeMatch[1] : fileName.split('_')[0];
+
+            const audioPath = `audio/${folderName}/${fileName}.ogg`;
             currentAudio = new Audio(audioPath);
             
             currentAudio.volume = 0.5;
@@ -819,7 +822,7 @@
                         event: function(entry, event) {
                             if (event.data.name === "Talk" && p === player) {
                                 const audioFileName = event.stringValue;
-                                if (audioFileName) playSfx(audioFileName);
+                                if (audioFileName) playSfx(selectedCharacter,audioFileName);
                             }
                         }
                         
