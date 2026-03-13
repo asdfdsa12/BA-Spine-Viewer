@@ -1,0 +1,5612 @@
+{
+    "character": [
+        {
+            "Airi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": "제 것도 사주셔서 감사해요. 선생님.\n다, 달콤해서 맛있네요!"
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": "카페가 아닌 밖에서 먹는 아이스크림은 정말 오랜만이네요.\n그것도 선생님과 함께라니. 헤헷."
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": "아, 아니에요. 정말 괜찮아요.\n되려 그립고, 기쁜 느낌인 걸요."
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": "즐겁고, 그리고……\n뭐라고 해야 할까…… 주변에 사람도 적고……\n굉장히, 두근두근 거린다고 해야 할까……\n아, 아, 아니에요! 방금 제가 한 말은 잊어주세요!\n하하, 하하하하……"
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": "고마워요, 선생님.\n오늘은 선생님 덕분에 정말 행복한 하루가 된 것 같아요."
+                }
+            ],
+            "Akane_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "akari_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Ako_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Aris_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Aru_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Aru_newyear_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Asuna_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Atsuko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Ayane_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Azusa_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Azusa_swimsuit_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0058_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0060BG_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0060_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0063_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0064_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0066_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0069_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0070_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0071_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0079_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0080_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0081_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0082_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0086_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0087_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0088_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0089_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0092_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0095_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0098_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0099_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0100_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0101_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0107_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0109_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0110_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0113_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0114_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0123_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0124_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0135_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0137_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0138_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0139_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0141_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0144_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0145_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0152_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0155_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0156_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0158_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0159_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0160_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0161_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0163_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0164_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0165_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0166_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0167_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0169_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0170_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0175_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0176_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0177_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0178_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0179_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0180_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0181_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0182_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0183_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0184_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0185_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0186_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0187_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0188_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0189_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0190_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0191_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0192_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0193_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0194_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0195_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0196_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0197_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0198_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0200_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0201_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0202_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0203_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0204_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0205_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0209_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0210_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0211_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0214_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0215_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0216_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0217_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0218_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0219_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0220_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0221_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0222_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": "동이 트기 직전의 이 순간이……\n어둠이 가장 깊은 때이지."
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": "나는…… 이 칠흑 같은 어둠이 두려웠어.\n어둠을 밝힐 만큼 반짝이지도 않고, 밤이 지나가는 걸 견디는 것조차도……\n나에게는 힘든 일이었으니까.\n다른 이를 연기하며― 그림자에 섞인 채 평정을 가장하며 숨어있을 수밖에, 없었던 거야."
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": "하지만, 더 이상은 아냐."
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": "밤은 언젠가 끝날 테고― 내 그림자가 땅에 드리울 것을, 알고 있으니까.\n그러니―"
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": "황혼 앞에서 이름을 고한다.\n……나는 백화요란 분쟁조정위원회의 부장, 고료 나구사!"
+                }
+            ],
+            "CH0224_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0225_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0228_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0229_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0230_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0231_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0232_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0233_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0235_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0238_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0239_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0240_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0242_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0243_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0245_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0250_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0251_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0255_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0257_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0258_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0259_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0260_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0261_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0262_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0263_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0266_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0267_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0268_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0269_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0270_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0271_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0273_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0274_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0275_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0280_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0281_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0282_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0284_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0285_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0286_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0287_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0288_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0291_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0292_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0293_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0294_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0295_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0296_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0297_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0300_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0301_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0302_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0304_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0306_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0309_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0310_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": "아아! 왜 지금 그걸 내냐고요!!\n제가 먼저 낸 다음에 내라고 말씀드렸잖아요!"
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": "제 완벽한 작전을 부정할 생각이신가요?!\n선생님을 위해 새벽부터 일어나 자리까지 잡았는데!!"
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": "……예? 그것과 이건 별개의 이야기?\n그렇게 따지면 선생님 쪽이 코인은 더 많이 냈다고요?"
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": "으음…… 그건 그렇긴 하지만……\n그럼 쌤쌤으로 하죠! 일단 휴전!"
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": "맞아요! 다음번엔 진짜 잘 될 테니까요!!\n……니히히! ……니히히히……"
+                }
+            ],
+            "CH0317_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0318_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0319_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0325_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0326_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0331_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0332_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0333_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0334_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0335_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0336_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0337_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH9996_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH9997_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH9998_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH9999_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": "(사람들이 모두 내 노래에…… 내 말에…… 귀를 기울여 주고 있어.)"
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": "(자신의 진심을 담아서 노래하는 것이 이렇게 기분 좋은 일이었다니……)"
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": "(이렇게 모두를 위해서 노래할 수 있다니…… 즐거워, 행복해……!)"
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": "(이대로 계속, 계속 노래하고 싶어!)"
+                }
+            ],
+            "Cherino_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Chinatsu_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Chise_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Eimi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Fuuka_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hanae_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hanako_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hare_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Haruka_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Haruna_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hasumi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hibiki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hihumi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hinata_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hina_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hiyori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hoshino_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Hoshino_swimsuit_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Ibuki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Iori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Izumi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Izumi_swimsuit_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Izuna_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Juri_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "juri_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Kaede_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Karin_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Kayoko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "kazusa_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Kirara_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "kirino_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Koharu_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Kotama_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Kotori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Maki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Marina_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "mari_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Mashiro_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Mashiro_swimsuit_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Midori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Mimori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Misaki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Miyako_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Moe_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "momiji_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Momoi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Mutsuki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "mutsuki_newyear_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Nagisa_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Neru_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Nodoka_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Nonomi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Pina_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "reizyo_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Sakurako_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Saori_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Saya_casual_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Saya_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Serika_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Serika_Newyear_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "serina_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shigure_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shimiko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shiroko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shiroko_ridingsuit_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shizuko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Shun_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Sumire_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Suzumi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Tomoe_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Tsubaki_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Tsurugi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Utaha_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Wakamo_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Yoshimi_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Yuuka_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Yuzu_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "Zunko_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ]
+        }
+    ]
+}
