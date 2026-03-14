@@ -821,7 +821,7 @@
                         },
                         event: function(entry, event) {
                             if (event.data.name === "Talk" && p === player) {
-                                const audioFileName = event.stringValue;
+                                const audioFileName = event.stringValue ? event.stringValue.toLowerCase() : null;
                                 if (audioFileName) playSfx(selectedCharacter,audioFileName);
                             }
                         }
