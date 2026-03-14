@@ -759,7 +759,7 @@
             );
 
             const link = document.createElement('a');
-            link.download = `memorial_character_${Date.now()}.png`;
+            link.download = `${selectedCharacter}_${Date.now()}.png`;
             link.href = tempCanvas.toDataURL("image/png");
             link.click();
         }

@@ -1,0 +1,84 @@
+{
+    "character": [
+        {
+            "Rin_raiddungeon":[
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": ""
+                }
+            ],
+            "NP0013_quest":[
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": ""
+                }
+            ],
+            "NP0032_npc":[
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": ""
+                }
+            ]
+        }
+    ]
+}
