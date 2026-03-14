@@ -779,12 +779,16 @@
 
         function loadSpine() {
             const container = document.getElementById('player-container');
-            container.innerHTML = '';
             if (currentAudio) {
                 currentAudio.pause();
                 currentAudio.src="";
                 currentAudio = null;
             }
+            if (player) {
+                player.dispose();
+                player = null;
+            }
+            container.innerHTML = '';
             
             const subtitleDiv = document.getElementById("subtitle-container");
             const subtitleText = document.getElementById("subtitle-text");
