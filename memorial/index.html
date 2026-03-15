@@ -812,7 +812,11 @@
                     const skeleton = player.skeleton;
                     skeleton.slots.forEach(slot => {
                         if (slot.data.blendMode === 1) {
-                            slot.data.color.a=0;
+                            console.log(slot.data);
+                            const attachmentName = slot.attachment ? slot.attachment.name : "";
+                            if(!attachmentName.includes("Eyelight")){
+                                slot.data.color.a=0;
+                            }
                         }
                     });
                     player.animationState.clearTracks();
