@@ -809,6 +809,12 @@
                     padLeft: "-8%", padRight: "-8%", padTop: "-8%", padBottom: "-8%"
                 },
                 success: function(p) {
+                    const skeleton = player.skeleton;
+                    skeleton.slots.forEach(slot => {
+                        if (slot.data.blendMode === 1) {
+                            slot.data.color.a=0;
+                        }
+                    });
                     player.animationState.clearTracks();
                     player.animationState.clearListeners();
                     const anims = p.skeleton.data;
