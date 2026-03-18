@@ -176,7 +176,8 @@
         <div class="search-container">
             <input type="text" id="charSearch" placeholder="이름 입력..." autocomplete="off">
             <div id="options-list" class="options-list">
-                <div class="option-item" data-value="CH0310_home" style="color: red">코유키(파자마)</div>
+                <div class="option-item" data-value="CH0305_home" style="color: red">레나</div>
+                <div class="option-item" data-value="CH0264_home" style="color: red">코노카</div>
                 <div class="option-item" data-value="CH0222_home">나구사</div>
                 <div class="option-item" data-value="Nagisa_home">나기사</div>
                 <div class="option-item" data-value="CH0293_home">나기사(수영복)</div>
@@ -382,6 +383,7 @@
                 <div class="option-item" data-value="CH0260_home">칸나(수영복)</div>
                 <div class="option-item" data-value="CH0335_home">케이</div>
                 <div class="option-item" data-value="CH0198_home">코유키</div>
+                <div class="option-item" data-value="CH0310_home">코유키(파자마)</div>
                 <div class="option-item" data-value="CH0137_home">코코나</div>
                 <div class="option-item" data-value="Kotori_home">코토리</div>
                 <div class="option-item" data-value="CH0185_home">코토리(응원단)</div>
@@ -820,15 +822,19 @@
                     });
                     player.animationState.clearTracks();
                     player.animationState.clearListeners();
-                    const anims = p.skeleton.data;
                     enableCanvasWheelScale(p);
-                    const isScene = /_scene_?\d*$/i.test(selectedCharacter);
-                    if(selectedCharacter!=="arona_workpage"&&selectedCharacter!=="arona_workpage_daytime"&&selectedCharacter!=="arona_workpage_nighttime"){
-                        isScene ? p.animationState.setAnimation(0, "Start_Idle_01", true) : p.animationState.setAnimation(0, "Idle_01", true);
-                    }
-                    else{
-                        p.animationState.setAnimation(0, "Idle_background_00", true);
-                    }
+                    const animations = p.skeleton.data.animations.map(a => a.name);
+                        
+                        let defaultAnim = "";
+                        
+                        if (animations.includes("Idle_01")) {
+                            defaultAnim = "Idle_01";
+                        } else {
+                            const fallbackIdle = animations.find(name => name.includes("Idle"));
+                            defaultAnim = fallbackIdle ? fallbackIdle : animations[0];
+                        }
+                        
+                        p.animationState.setAnimation(0, defaultAnim, true);
                     p.animationState.addListener({
                         start: function(entry) {
                             displaySubtitle(selectedCharacter, entry.animation.name);
