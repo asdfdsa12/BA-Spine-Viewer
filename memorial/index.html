@@ -105,8 +105,7 @@
         .option-item.hidden { display: none; }
 
         .btn-group { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
-        button.action-btn { padding: 12px; border-radius: 4px; border: none; cursor: pointer; color: white; background: #555; font-weight: bold; width: 100%; }
-        button.action-btn:hover { background: #666; }
+        button.action-btn { padding: 12px; border-radius: 4px; border: none; cursor: pointer; color: white; background: #555; width: 100%; }
         
         .anim-container-wrapper {
             background: #333;
@@ -493,6 +492,8 @@
             <div id="animation-list"></div>
         </div>
         <button onclick="location.href='../'" style="height: 35px; font-size:15px">메인으로</button>
+        <button id="subtitle-toggle" class="action-btn" onclick="toggleSubtitleSetting()" style="line-height: 10px; font-size: 15px; background: #2b6cb0;">
+    자막: ON</button>
     </div>
 
     <div id="viewer-container">
@@ -517,8 +518,32 @@
             .then(data => {
                 scriptData = data.character[0];
             });
+        
+        let isSubtitleEnabled = true;
+
+        function toggleSubtitleSetting() {
+            isSubtitleEnabled = !isSubtitleEnabled;
+            const btn = document.getElementById("subtitle-toggle");
+            const subtitleDiv = document.getElementById("subtitle-container");
+
+            if (isSubtitleEnabled) {
+                btn.innerText = "자막: ON";
+                btn.style.background = "#2b6cb0";
+
+                if (player && player.animationState.getCurrent(1)) {
+                    const currentAnim = player.animationState.getCurrent(1).animation.name;
+                    displaySubtitle(selectedCharacter, currentAnim);
+                }
+            } else {
+                btn.innerText = "자막: OFF";
+                btn.style.background = "#555";
+                subtitleDiv.style.display = "none";
+            }
+        }
 
         function displaySubtitle(selectedCharacter, animName) {
+            if (!isSubtitleEnabled) return;
+
             const subtitleDiv = document.getElementById("subtitle-container");
             const subtitleText = document.getElementById("subtitle-text");
 
@@ -530,12 +555,12 @@
                 if (scriptItem) {
                     subtitleText.innerText = scriptItem.script;
                     subtitleDiv.style.display = "block";
-                    
                     return;
                 }
             }
             subtitleDiv.style.display = "none";
         }
+        
 
         function enableCanvasDrag() {
             const container = document.getElementById("player-container");
