@@ -1387,6 +1387,72 @@
                     "script": ""
                 }
             ],
+            "CH0172_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0173_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0174_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
             "CH0175_home": [
                 {
                     "animation": "Talk_01",
