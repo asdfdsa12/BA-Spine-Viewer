@@ -1390,67 +1390,79 @@
             "CH0172_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후후, 잘 익었네요.\n잘 부풀어 오른 것이, 좋은 유부가 될 것 같아요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아, 아직은 안 돼요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "이 뒤에 한 번 더 튀겨야 하거든요. 처음에는 낮은 온도에서,\n그리고 높은 온도에서 한 번 더 튀겨야만 수분이 모두 빠져서, 맛있는 유부가 된답니다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "유부는 정말 시간과 손이 많이 드는 요리예요.\n그래서 옛날에는 한 해의 풍작과 안녕을 빌기 위한 공물로 유부를 만들었다고 해요."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "제가 바라는 것은 주변 사람들의 행복과 안녕뿐이지만.\n이 유부에 눌러 담은 제 마음이 전해진다면…… 기쁘겠네요."
                 }
             ],
             "CH0173_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "뭐, 뭐야? 선생님, 언제 왔어?"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "따, 딱히 긴장 같은 거 하지 않았거든!\n나는 그저…… 타이밍을 재는 게 조금 어려워서……"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "<여기 보세요— 하나, 둘, 셋.>\n아, 아핫."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "으윽…… 또 눈을 감아 버렸어.\n누가 숫자를 세면 이상하게 긴장이 되어서—"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "아, 아니. 긴장한 게 아니라!\n자꾸 무의식적으로 눈을 감아서—"
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "<여기 보세요—> 온다……!\n<하나, 둘, 셋.> 아핫."
+                },
+                {
+                    "animation": "Talk_07",
+                    "script": "그러니까! 왜 자꾸 눈을 감아버리는 거냐고!"
                 }
             ],
             "CH0174_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "윽…… 쓰고 텁텁해……\n오래 방치한 원두라 그런지 맛이 별로네."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "로망이라…… 그렇네.\n그 로망이 없었더라면, 여기까지 오지 못했을 테니까."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "어릴 때, 비밀 기지가 갖고 싶었던 적은 없었어?\n하지만 막상 실제로 만들어 보니 생각과 많이 다르더라고.\n좁고, 불편하고, 할 수 있는 것도 그다지 없고……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "꿈꿔왔던 현실은 언제나 그런 모습이었던 것 같아.\n이상적인 어른의 모습도, SRT의 생활도."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "하지만 그 로망 덕분이었을까.\n현실의 불편함도 이제는 기묘한 풍미로 느껴져."
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "선생님. 로망을 잔뜩 탄 싸구려 커피의 맛은 어때?\n후훗. 다시 한번, 나의 세계에 온 걸 환영해."
                 }
             ],
             "CH0175_home": [
