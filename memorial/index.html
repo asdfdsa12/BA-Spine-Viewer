@@ -175,7 +175,9 @@
         <div class="search-container">
             <input type="text" id="charSearch" placeholder="이름 입력..." autocomplete="off">
             <div id="options-list" class="options-list">
-                <div class="option-item" data-value="CH0307_home" style="color:red">아카네(교복)</div>
+                <div class="option-item" data-value="CH0172_home" style="color: red">니코</div>
+                <div class="option-item" data-value="CH0174_home" style="color: red">오토기</div>
+                <div class="option-item" data-value="CH0173_home" style="color: red">쿠루미</div>
                 <div class="option-item" data-value="CH0222_home">나구사</div>
                 <div class="option-item" data-value="Nagisa_home">나기사</div>
                 <div class="option-item" data-value="CH0293_home">나기사(수영복)</div>
@@ -305,6 +307,7 @@
                 <div class="option-item" data-value="Atsuko_home">아츠코</div>
                 <div class="option-item" data-value="CH0267_home">아츠코(수영복)</div>
                 <div class="option-item" data-value="Akane_home">아카네</div>
+                <div class="option-item" data-value="CH0307_home">아카네(교복)</div>
                 <div class="option-item" data-value="CH0099_home">아카네(바니걸)</div>
                 <div class="option-item" data-value="akari_home">아카리</div>
                 <div class="option-item" data-value="akari_bg">아카리_배경</div>
@@ -876,7 +879,8 @@
                     const allAnimations = p.skeleton.data.animations;
                     let trackIndex = 10;
                     allAnimations.forEach(anim => {
-                    if (anim.name.endsWith("_R")&&anim.name!=="Idle_01_R"&&anim.name!=="Idle_Light_01_R"&&anim.name!=="Dev/Dev_Idle_01_R") {
+                        a=anim.name;
+                    if (a.endsWith("_R")&&a!=="Idle_01_R"&&a!=="Idle_Light_01_R"&&a!=="Dev/Dev_Idle_01_R"&&a!=="Ear_L_01_R"&&a!=="Ear_L_02_R"&&a!=="Ear_R_01_R") {
                         p.animationState.setAnimation(trackIndex, anim.name, true);
                         trackIndex++;
                     }
