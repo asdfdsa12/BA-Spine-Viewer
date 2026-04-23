@@ -264,6 +264,8 @@
                 const data = await response.json();
                 
                 const listContainer = document.getElementById('options-list');
+                const searchInput = document.getElementById('charSearch');
+
                 listContainer.innerHTML = '';
 
                 data.characters.forEach(char => {
@@ -279,13 +281,40 @@
 
                     div.onclick = () => {
                         selectedCharacter = char.id;
-                        document.getElementById('charSearch').value = char.name; 
+                        searchInput.value = char.name;
                         listContainer.classList.remove('show');
                         loadSpine();
                     };
 
                     listContainer.appendChild(div);
                 });
+
+                const optionItems = listContainer.querySelectorAll('.option-item');
+
+                searchInput.addEventListener('click', () => {
+                    listContainer.classList.add('show');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.search-container')) {
+                        listContainer.classList.remove('show');
+                    }
+                });
+
+                searchInput.addEventListener('input', function () {
+                    const filter = this.value.toLowerCase();
+                    listContainer.classList.add('show');
+
+                    optionItems.forEach(item => {
+                        const text = item.textContent.toLowerCase();
+                        if (text.includes(filter)) {
+                            item.classList.remove('hidden');
+                        } else {
+                            item.classList.add('hidden');
+                        }
+                    });
+                });
+
             } catch (error) {
                 console.error("데이터 로드 실패:", error);
             }
@@ -609,7 +638,7 @@
             const charCodeMatch = fileName.match(/^(.+?)(?=_memoriallobby|_)/i);
             const folderName = charCodeMatch ? charCodeMatch[1] : fileName.split('_')[0];
 
-            const audioPath = `audio/${folderName}/${fileName}.ogg`;
+            const audioPath = `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-memorial@main/audio/${folderName}/${fileName}.ogg`;
             currentAudio = new Audio(audioPath);
             
             currentAudio.volume = 0.5;
@@ -639,8 +668,8 @@
             }
 
             player = new spine.SpinePlayer("player-container", {
-                skelUrl: `assets/${selectedCharacter}.skel`, 
-                atlasUrl: `assets/${selectedCharacter}.atlas`,
+                skelUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-memorial@main/assets/${selectedCharacter}.skel`, 
+                atlasUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-memorial@main/assets/${selectedCharacter}.atlas`,
                 showControls: false,
                 premultipliedAlpha: false,
                 backgroundColor: "#00000000",

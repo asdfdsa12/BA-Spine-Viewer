@@ -312,6 +312,8 @@
                 const data = await response.json();
                 
                 const listContainer = document.getElementById('options-list');
+                const searchInput = document.getElementById('charSearch');
+
                 listContainer.innerHTML = '';
 
                 data.characters.forEach(char => {
@@ -327,13 +329,40 @@
 
                     div.onclick = () => {
                         selectedCharacter = char.id;
-                        document.getElementById('charSearch').value = char.name; 
+                        searchInput.value = char.name;
                         listContainer.classList.remove('show');
                         loadSpine();
                     };
 
                     listContainer.appendChild(div);
                 });
+
+                const optionItems = listContainer.querySelectorAll('.option-item');
+
+                searchInput.addEventListener('click', () => {
+                    listContainer.classList.add('show');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.search-container')) {
+                        listContainer.classList.remove('show');
+                    }
+                });
+
+                searchInput.addEventListener('input', function () {
+                    const filter = this.value.toLowerCase();
+                    listContainer.classList.add('show');
+
+                    optionItems.forEach(item => {
+                        const text = item.textContent.toLowerCase();
+                        if (text.includes(filter)) {
+                            item.classList.remove('hidden');
+                        } else {
+                            item.classList.add('hidden');
+                        }
+                    });
+                });
+
             } catch (error) {
                 console.error("데이터 로드 실패:", error);
             }
@@ -581,7 +610,6 @@
             toggleBtn.innerText = sidebar.classList.contains('open') ? "✕ 닫기" : "☰ 메뉴 열기";
         }
 
-
         const searchInput = document.getElementById('charSearch');
         const optionsList = document.getElementById('options-list');
         const optionItems = document.querySelectorAll('.option-item');
@@ -610,16 +638,17 @@
             });
         });
 
-        optionItems.forEach(item => {
-            item.addEventListener('click', function() {
-                const val = this.getAttribute('data-value');
-                const name = this.textContent;
-                
-                selectedCharacter = val;
-                searchInput.value = name;
-                optionsList.classList.remove('show');
-                
-                loadSpine();
+        searchInput.addEventListener('input', function() {
+            const filter = this.value.toLowerCase();
+            optionsList.classList.add('show');
+            
+            optionItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(filter)) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
             });
         });
 
@@ -684,7 +713,7 @@
             const charCodeMatch = fileName.match(/^(.+?)(?=_)/i);
             const folderName = charCodeMatch ? charCodeMatch[1] : fileName.split('_')[0];
 
-            const audioPath = `audio/${folderName}/${fileName}.ogg`;
+            const audioPath = `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-new@main/audio/${folderName}/${fileName}.ogg`;
             currentAudio = new Audio(audioPath);
             
             currentAudio.volume = 0.5;
@@ -700,22 +729,22 @@
                 currentAudio.src="";
                 currentAudio = null;
             }
-            if (player) {
-                player.dispose();
-                player = null;
-            }
-            container.innerHTML = '';
-
             const subtitleDiv = document.getElementById("subtitle-container");
             const subtitleText = document.getElementById("subtitle-text");
             if (subtitleDiv) {
                 subtitleDiv.style.display = "none";
                 subtitleText.innerText = "";
             }
+            if (player) {
+                player.dispose();
+                player=null;
+            }
+
+            container.innerHTML = '';
 
             player = new spine.SpinePlayer("player-container", {
-                skelUrl: `assets/${selectedCharacter}.skel`, 
-                atlasUrl: `assets/${selectedCharacter}.atlas`,
+                skelUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-new@main/assets/${selectedCharacter}.skel`, 
+                atlasUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-new@main/assets/${selectedCharacter}.atlas`,
                 showControls: false,
                 premultipliedAlpha: false,
                 backgroundColor: "#00000000",
