@@ -1,0 +1,30 @@
+{
+    "characters": [
+        {"id": "nagisa_spr", "name": "나기사"},
+        {"id": "nao_spr", "name": "나오"},
+        {"id": "nodoka_spr", "name": "노도카"},
+        {"id": "reizyo_spr", "name": "레이죠"},
+        {"id": "rone_spr", "name": "로네"},
+        {"id": "mari_spr", "name": "마리"},
+        {"id": "marina_spr", "name": "마리나"},
+        {"id": "makoto_spr", "name": "마코토"},
+        {"id": "CH0124_spr", "name": "메루"},
+        {"id": "momiji_spr", "name": "모미지"},
+        {"id": "minori_spr", "name": "미노리"},
+        {"id": "midori_spr", "name": "미도리"},
+        {"id": "miria_spr", "name": "미리아"},
+        {"id": "miyako_spr", "name": "미야코"},
+        {"id": "binah_spr", "name": "비나"},
+        {"id": "satsuki_spr", "name": "사츠키"},
+        {"id": "sakurako_spr", "name": "사쿠라코"},
+        {"id": "serika_newyear_spr", "name": "세리카(새해)"},
+        {"id": "erika_spr", "name": "에리카"},
+        {"id": "yukari_spr", "name": "유카리"},
+        {"id": "ibuki_spr", "name": "이부키"},
+        {"id": "kazusa_spr", "name": "카즈사"},
+        {"id": "kanna_spr", "name": "칸나"},
+        {"id": "kirara_spr", "name": "키라라"},
+        {"id": "terramachina_spr", "name": "테라마키나"},
+        {"id": "pei_spr", "name": "페이"}
+    ]
+}
