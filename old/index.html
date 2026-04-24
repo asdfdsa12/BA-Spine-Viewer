@@ -25,13 +25,45 @@
             flex-direction: column;
             gap: 15px;
         }
+        #sidebar_right {
+            position: fixed;
+            top: 0; 
+            right: -320px;
+            width: 280px;
+            height: 100vh;
+            background: #252525;
+            box-shadow: 5px 0 15px rgba(0,0,0,0.5);
+            transition: right 0.3s ease;
+            z-index: 1000;
+            padding: 60px 20px 20px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+        }
 
         #sidebar.open { left: 0; }
+        #sidebar_right.open { right: 0; }
 
         #menu-toggle {
             position: fixed;
             top: 15px;
             left: 15px;
+            z-index: 1001;
+            background: #2b6cb0;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        #menu-toggle_right {
+            position: fixed;
+            top: 15px;
+            right: 15px;
             z-index: 1001;
             background: #2b6cb0;
             color: white;
@@ -137,39 +169,21 @@
 <body>
 
     <button id="menu-toggle" onclick="toggleSidebar()">☰ 메뉴 열기</button>
+    <button id="menu-toggle_right" onclick="toggleSidebarRight()">☰ 파츠 투명도</button>
+
+    <div id="sidebar_right">
+        <div class="anim-container-wrapper">
+            <div id="slot-sliders-container" style="overflow-y: auto; max-height: 80vh; padding-right: 20px;">
+            </div>
+        </div>
+    </div>
+
     <div id="sidebar">
         <label>캐릭터 검색: </label>
 
         <div class="search-container">
             <input type="text" id="charSearch" placeholder="이름 입력..." autocomplete="off">
-            <div id="options-list" class="options-list">
-                <div class="option-item" data-value="nagisa_spr">나기사</div>
-                <div class="option-item" data-value="nao_spr">나오</div>
-                <div class="option-item" data-value="nodoka_spr">노도카</div>
-                <div class="option-item" data-value="reizyo_spr">레이죠</div>
-                <div class="option-item" data-value="rone_spr">로네</div>
-                <div class="option-item" data-value="mari_spr">마리</div>
-                <div class="option-item" data-value="marina_spr">마리나</div>
-                <div class="option-item" data-value="makoto_spr">마코토</div>
-                <div class="option-item" data-value="CH0124_spr">메루</div>
-                <div class="option-item" data-value="momiji_spr">모미지</div>
-                <div class="option-item" data-value="minori_spr">미노리</div>
-                <div class="option-item" data-value="midori_spr">미도리</div>
-                <div class="option-item" data-value="miria_spr">미리아</div>
-                <div class="option-item" data-value="miyako_spr">미야코</div>
-                <div class="option-item" data-value="binah_spr">비나</div>
-                <div class="option-item" data-value="satsuki_spr">사츠키</div>
-                <div class="option-item" data-value="sakurako_spr">사쿠라코</div>
-                <div class="option-item" data-value="serika_newyear_spr">세리카(새해)</div>
-                <div class="option-item" data-value="erika_spr">에리카</div>
-                <div class="option-item" data-value="yukari_spr">유카리</div>
-                <div class="option-item" data-value="ibuki_spr">이부키</div>
-                <div class="option-item" data-value="kazusa_spr">카즈사</div>
-                <div class="option-item" data-value="kanna_spr">칸나</div>
-                <div class="option-item" data-value="kirara_spr">키라라</div>
-                <div class="option-item" data-value="terramachina_spr">테라마키나</div>
-                <div class="option-item" data-value="pei_spr">페이</div>
-            </div>
+            <div id="options-list" class="options-list"></div>
         </div>
 
         <button onclick="toggleFullscreen()" style="height: 35px; font-size: 15px">
@@ -272,6 +286,13 @@
             toggleBtn.innerText = sidebar.classList.contains('open') ? "✕ 닫기" : "☰ 메뉴 열기";
         }
 
+        function toggleSidebarRight() {
+            const sidebar = document.getElementById('sidebar_right');
+            const toggleBtn = document.getElementById('menu-toggle_right');
+            sidebar.classList.toggle('open');
+            toggleBtn.innerText = sidebar.classList.contains('open') ? "✕ 닫기" : "☰ 파츠 투명도";
+        }
+
         const searchInput = document.getElementById('charSearch');
         const optionsList = document.getElementById('options-list');
         const optionItems = document.querySelectorAll('.option-item');
@@ -312,6 +333,105 @@
                 loadSpine();
             });
         });
+
+                async function initCharacterList() {
+            try {
+                const response = await fetch('Characters.json');
+                const data = await response.json();
+                
+                const listContainer = document.getElementById('options-list');
+                const searchInput = document.getElementById('charSearch');
+
+                listContainer.innerHTML = '';
+
+                data.characters.forEach(char => {
+                    const div = document.createElement('div');
+                    div.className = 'option-item';
+                    
+                    div.setAttribute('data-value', char.id);
+                    div.textContent = char.name;
+
+                    if (char.new === true) {
+                        div.style.color = "red";
+                    }
+
+                    div.onclick = () => {
+                        selectedCharacter = char.id;
+                        searchInput.value = char.name;
+                        listContainer.classList.remove('show');
+                        loadSpine();
+                    };
+
+                    listContainer.appendChild(div);
+                });
+
+                const optionItems = listContainer.querySelectorAll('.option-item');
+
+                searchInput.addEventListener('click', () => {
+                    listContainer.classList.add('show');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.search-container')) {
+                        listContainer.classList.remove('show');
+                    }
+                });
+
+                searchInput.addEventListener('input', function () {
+                    const filter = this.value.toLowerCase();
+                    listContainer.classList.add('show');
+
+                    optionItems.forEach(item => {
+                        const text = item.textContent.toLowerCase();
+                        if (text.includes(filter)) {
+                            item.classList.remove('hidden');
+                        } else {
+                            item.classList.add('hidden');
+                        }
+                    });
+                });
+
+            } catch (error) {
+                console.error("데이터 로드 실패:", error);
+            }
+        }
+
+        function buildSlotOpacityList(p) {
+            const container = document.getElementById('slot-sliders-container');
+            container.innerHTML = '';
+
+            const slots = p.skeleton.slots;
+
+            slots.forEach(slot => {
+                if (!slot.data.name) return;
+
+                const slotWrapper = document.createElement('div');
+                slotWrapper.style.marginBottom = "13px";
+
+                const label = document.createElement('div');
+                label.style.fontSize = "12px";
+                label.style.marginBottom = "4px";
+                label.style.color = "#ccc";
+                label.textContent = slot.data.name;
+
+                const slider = document.createElement('input');
+                slider.type = "range";
+                slider.min = "0";
+                slider.max = "1";
+                slider.step = "0.01";
+                slider.value = slot.color.a;
+                slider.style.width = "100%";
+
+                slider.oninput = (e) => {
+                    const alpha = parseFloat(e.target.value);
+                    slot.color.a = alpha;
+                };
+
+                slotWrapper.appendChild(label);
+                slotWrapper.appendChild(slider);
+                container.appendChild(slotWrapper);
+            });
+        }
 
         function enableCanvasDrag() {
             const container = document.getElementById("player-container");
@@ -447,8 +567,8 @@
 
             player = new spine.SpinePlayer("player-container", {
                 binary: true,
-                skelUrl: `assets/${selectedCharacter}.skel`, 
-                atlasUrl: `assets/${selectedCharacter}.atlas`,
+                skelUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-Asset@main/old/assets/${selectedCharacter}.skel`, 
+                atlasUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-Asset@main/old/assets/${selectedCharacter}.atlas`,
                 showControls: false,
                 premultipliedAlpha: false,
                 backgroundColor: "#00000000",
@@ -472,12 +592,15 @@
                         p.canvas.style.top = "-50%";
                         p.canvas.style.transform = "scale(0.5);";
                     }
-                    buildAnimationList(player);
+                    buildSlotOpacityList(p)
+                    buildAnimationList(p);
                 }
             });
         }
-
-        window.onload = loadSpine;
+        window.onload = () => {
+            initCharacterList();
+            loadSpine();
+        };
     </script>
 </body>
 </html>
