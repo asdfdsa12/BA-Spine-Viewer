@@ -756,7 +756,12 @@
                 },
                 success: function(p) {
                     enableCanvasWheelScale(p);
+                    try{
                     p.animationState.setAnimation(0, "Idle_01", true);
+                    }
+                    catch(e){
+                        p.animationState.setAnimation(0, "00", true);
+                    }
                     p.animationState.addListener({
                         start: function(entry) {
                             displaySubtitle(selectedCharacter, entry.animation.name);
