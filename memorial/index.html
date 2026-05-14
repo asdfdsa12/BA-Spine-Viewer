@@ -638,7 +638,7 @@
             const charCodeMatch = fileName.match(/^(.+?)(?=_memoriallobby|_)/i);
             const folderName = charCodeMatch ? charCodeMatch[1] : fileName.split('_')[0];
 
-            const audioPath = `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-Asset@main/memorial/audio/${folderName}/${fileName}.ogg`;
+            const audioPath = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/audio/${folderName}/${fileName}.ogg`;
             currentAudio = new Audio(audioPath);
             
             currentAudio.volume = 0.5;
@@ -668,8 +668,8 @@
             }
 
             player = new spine.SpinePlayer("player-container", {
-                skelUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-Asset@main/memorial/assets/${selectedCharacter}.skel`, 
-                atlasUrl: `https://cdn.jsdelivr.net/gh/asdfdsa12/BA-Spine-Viewer-Asset@main/memorial/assets/${selectedCharacter}.atlas`,
+                skelUrl: `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/assets/${selectedCharacter}.skel`, 
+                atlasUrl: `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/assets/${selectedCharacter}.atlas`,
                 showControls: false,
                 premultipliedAlpha: false,
                 backgroundColor: "#00000000",
