@@ -688,6 +688,12 @@
                             }
                         }
                     });
+                    if(selectedCharacter=="Hina_home"){
+                        skeleton.slots.forEach(slot => {
+                            if(slot.data.attachmentName.includes("Light"))
+                                slot.data.attachmentName="null";
+                        });
+                    }
                     player.animationState.clearTracks();
                     player.animationState.clearListeners();
                     enableCanvasWheelScale(p);
