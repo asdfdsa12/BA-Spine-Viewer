@@ -26,771 +26,745 @@
             "Akane_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "어머. 돌아오셨군요. 오늘 하루는 어떠셨나요?"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아, 주인님. 마침 최고급 찻잎이 들어왔답니다.\n제가 한 잔 준비해드릴까요?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "네? 여기는 우리들의 집이 아니라고요?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
+                    "script": "후훗. 상관없어요.\n우리들의 집은 아니지만, 우리는 지금 함께 있으니까요."
                 }
             ],
             "akari_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "으음, 맛있어~!\n이런 초밥이라면 얼마든지 먹을 수 있겠어요!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그 사이에 몇 개의 초밥을 먹은 거냐고요?\n후후, 선생님은 이제까지 먹은 초밥의 개수를 일일이 기억하시나요?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "대략 100 접시 정도려나…… 그래도 평소에 비하면 소식하는 편이에요.\n아직 배가 반도 차지 않았는 걸요!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "정말 더 먹어도 괜찮으시겠어요?\n아까 전부터 선생님의 이마에서 식은땀이 흘러내리고 있는데요?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "아아~ 이 황금색 접시에 담긴 초밥은 어떤 맛이 나려나~\n 선생님, 정말로 괜찮으시겠어요? 여기 1000엔 짜리 초밥, 먹어버릴 거라구요?"
                 }
             ],
             "Ako_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "으으으…… 어쩌다 이런 꼴이……"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이 굴욕, 절대로 잊지 않을 거니까요……!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "엣, 기, 기다려주세요! 이 이상은 약속과 다르지 않나요!?\n사, 산책!? 제정신인가요? 이대로!?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그, 그건 확실히……\n죄, 죄송해요…… 조금 분위기를 너무 타 버렸어요……"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "저, 저기…… 언제까지 이러고 있어야 하는 건가요?"
                 }
             ],
             "Aris_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "아리스는 키보토스에, 마법이 없다고 생각하지 않습니다."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "마법은 있습니다. 선생님은 지금, 아리스를 행복하게 만들었으니까요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "게임이 재미있는 이유는 그것이 이 세상의 아름다움을 담고 있기 때문임을\n선생님을 통해 알게 되었습니다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "게임도, 고양이도, 친구들도…… 그리고 이 순간도.\n이 세상에는 아름다운 것들이 많습니다."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "아리스는 더 알고 싶습니다. 선생님과 함께……\n이 세상을 더 배우고 싶습니다!"
                 }
             ],
             "Aru_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "(훗, 내 일하는 모습에 반하면 곤란하다고?)\n(잘못 걸었잖아?! 초밥집을 왜 찾아?!)"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "흐음, 곤란하네요. 저희가 지금 일이 꽉 차있어서.\n(배달? 안되는 게 뻔하잖아!)"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "아아, 네, 네. 이해합니다.\n(잘못 걸었으면 빨리 끊을 것이지. 뭐 이리 말이 많아……?)"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "으음. 어려운 문제군요. 이번 분기 회계상으로는…… 요즘 기준 금리가……\n(초밥 가격을 왜 물어보는 거야?!)"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "아아, 네. 확인했습니다. 그렇군요.\n(네 초밥 취향 따위 궁금하지 않다구…… 뭐야, 이 녀석)"
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "응? 잘못 걸린 거 아니냐고?\n무, 무슨 얘길 하는 거야? 일하는 중이잖아!"
                 }
             ],
             "Aru_newyear_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후후, 걷는 게 느리잖아. 선생님. 응? 내가 빠르다고? 그런 게 아니야.\n뭐, 언제 어디서나 약속에 늦지 않으려고 평소부터 신경 쓰고 있을 뿐이니까. 사장으로서."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "일찍 일어나는 새가 벌레를 잡는다…….\n올해 흥신소는, 작년 이상으로 기민하게, 적극적으로 움직일 거야."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "물론, 선생님도 함께야. \n우리 흥신소의 활동은, 이제 동업자인 선생님 없이 한다는 건 말이 되지 않으니까."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그렇게 함께 일하는 시간이, 앞으로도 쭉, 계속 이어졌으면 좋겠네.\n……어, 어디까지나 업무! 업무 쪽의 이야기니까!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "(아, 안 돼. 지금 내가 무슨 말을 하고 있는 건지, 스스로도 잘 모르겠어……!)"
                 }
             ],
             "Asuna_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……후훗, 주인님께 올라타 버렸다!\n응! 몸도 가볍고, 지금은 뭐든 할 수 있을 거 같아!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "음. 뭘까나~ 이 느낌……. ……뭐, 어때!\n쨔안-! 언제나의 아스나 쨩으로, 부활!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "이것도 다 주인님 덕이겠지? 고마워!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "후후. 역시 이렇게 주인님 곁에 있으니, 두근두근한걸-.\n……뭐랄까 좀, 습관이 될 지도!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그러니까 앞으로도 종종 이런 식으로…… 알겠지?\n잘 부탁해, 나의 주인님!"
                 }
             ],
             "Atsuko_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "이 꽃, 설마……\n……가져와 주었구나."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "날 위해서…?\n……그렇구나."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "소중히 간직할게."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
+                    "script": "……굉장히 기뻐.\n고마워."
                 }
             ],
             "Ayane_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "응? 선생님? 거기 계시죠?\n눈이 나빠서…… 잘 안보여요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "네? 아. 확실히 저, 평소엔 벗을 일이 거의 없으니까요.\n아, 아하하…… 아무리 그래도 씻을 때도 안경을 끼진 않아요. "
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "뭔가 얼굴이 뜨거워요…….\n선생님께 부끄러운 모습만 보여준 거 같아서……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "네?! 귀, 귀엽다니…… 그런……\n아, 아우아……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그, 그렇게 쳐다보시면…….\n부……부끄러운데……."
                 }
             ],
             "Azusa_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "놀리려는 거지? 그렇지?\n……뭐, 그래도 선생님이라면 상관없지만……"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "……으으응! 귀여워.\n이 인형 꼭 가지고 싶었던 아이야."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "에헤헤헤헤…… 헤헤헤……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……응? 아니, 아무 것도 아니야. (……말하지 않을 거야.)\n(선생님을 곤란하게 하진 않을 거니까.)"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그런데 어떻게 이런 귀여운 장소를 알고 있는 거야?\n좋아한다고? 정말로?"
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "지금 날 아이 취급하는 거야?\n뭐…… 딱히 상관없지만."
                 }
             ],
             "Azusa_swimsuit_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "와…… 이런 건 처음이야……\n눈에 비치는 게 전부 반짝반짝…… 굉장해……"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이렇게 방해받지 않고, 전부 내다볼 수 있는 장소가 있었다니…….\n뭔가……. 신기한 느낌……. "
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "사실 이렇게 탁 트인 위치는 별로 좋아하지 않았어.\n숨을 곳도 없고…… 주변 경계도 힘들고……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그치만 지금은……. 전혀 불안하지 않아.\n분명, 이건…… 응……"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "지금의 내 시야에는, 항상 이렇게…….\n……선생님이 보이고 있으니까."
                 }
             ],
             "CH0058_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "구석~ 구석~ 깨끗해져라~."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "크루세이더 쨩을, 녹슬게 할 순 없으니까요.\n원래 모두가 함께 사용하는 물건이고 깨끗이 제자리에 돌려놔야 할 텐데."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "아, 선생님. 너무 가까이 계시면 물줄기에 젖을지도 몰라요?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "수영복을 입고 있으니 젖어도 상관 없다고요?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
-                }
-            ],
-            "CH0060BG_home": [
-                {
-                    "animation": "Talk_01",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_02",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_03",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
+                    "script": "확실히 그렇네요.\n아, 그럼 모처럼이기도 하니 다음번엔 같이 수영하러 가요!"
                 }
             ],
             "CH0060_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "카하하하하하-\n아, 죄송합니다.……감사합니다, 선생님."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이렇게 바다에서 논 건 처음이라…….\n즐겁습니다만, 생각보다 체력이 필요한 일이었군요……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……조금 지쳤습니다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그러고 보니 선생님, 갑자기 든 생각인데……. 이 수영복, 조금 갑갑해서…….\n혹시 사이즈가 안 맞는 걸까요……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "어, 어라…… 왜 그러십니까?\n제, 제, 제가 또 뭔가 실수를……?!"
                 }
             ],
             "CH0063_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "어째서 모두들, 그렇게나 바다를 좋아하는 걸까…… 라고, 쭉 생각해왔어.\n다들 즐거워 보이지만…… 난 아무래도 좋아지지가 않아서……."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "물속은 제대로 보이지도 않고, 발도 바닥에 닿지 않으면 불안하고…….\n선생도, 그런 생각 해본 적 없어?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "특히 밤바다라는 건, 꼭 새카만 우물 같은 게 으스스해서……\n보고 있으면 빨려들어갈 것만 같아, 도저히 좋아할 수 없었는데……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "하지만…… 이제는, 모두의 기분을 조금은 알 것 같아.\n바다라는 건 이렇게 예쁜 거였구나."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "신기해……. 지금까지, 이런 식으로 생각 해본 적 없었는데.\n고마워, 선생님. 함께 있어줘서…… 여러 가지를, 가르쳐주어서."
                 }
             ],
             "CH0064_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "어, 어느 틈에 온 거야?"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아까 전부터 계속 지켜 보고 있었다고?\n이 변태, 죽어!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……말해 두겠지만, 놀고 있는 게 아니니까 말이야?\n이것도 엄연히, 풍기를 지키는 활동의 일환으로……!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
+                    "script": "……그보다, 언제까지 지켜보고 있을 거야!\n빨리 어디론가 가 버려!"
                 }
             ],
             "CH0066_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후후, 이곳은 하나도 변하지 않았네요.\n제가 벽에 적어둔 자신과의 약속도…… 그 때 그대로네요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그리워라……\n이 약속들, 지금에 와서 이렇게 보니, 대부분 지킬 수 있었던 것들이네요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "그럼 모처럼이기도 하고,\n이번에는 여기에 미래의 소원이라도 적어볼까요?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "알려드릴 수 없어요. 비밀이니까요!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "어른에게는 알려드릴 수 없는 어린아이만의 비밀…… 이니까요. 후후."
                 }
             ],
             "CH0069_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……선생님은 속은 거야.\n어떡하지? 이제, 아침까지 여기 있을 수 밖에 없는데?"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이렇게 간단히 나를 믿어버리다니, 선생님도 정말이지…….\n그렇게 나를 믿지 말라고 말했는데도……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "응? 여기에서 소란 피웠다간…… 모두에게 들켜버릴 거야? 괜찮아?\n……나는 딱히 상관없지만."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……어라? 혹시…… 화났어?\n내가 문제아라는 것 쯤, 선생님도 알고 있었잖아……?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "저기……곤란하게 만들려는 건 아니었어. ……선생님에게 미움받는 건…… 싫어…….\n하지만…… 조금만……. 아주 잠깐이라도 좋으니까……\n선생님과, 함께 있고 싶었어……."
                 }
             ],
             "CH0070_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……오신 줄도 모르고 있었네요.\n그렇게 안 보이시겠지만, 이래 봬도 놀란 상태랍니다. "
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "나쁜 이야기는 아니에요. 놀랄 일이 많이 있다는 건, 즐거운 일이죠.\n전부터 쭉……. 바래 왔던 일이니까요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……그것도 이렇게…….\n눈앞에 선생님이 깜짝 나타나신 이런 거라면, 더더욱……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "어디 보죠. 오늘이…….\n아, 그렇군요. 제 부탁으로 와 주신 거였죠."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "……죄송해요. 별다른 일이 있는 건 아니랍니다. 그저…….\n……단지, 당신과의 대화를 나누고 싶다. 그렇게 생각했을 뿐."
                 }
             ],
             "CH0071_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "하하! 선생님, 여김다! 여기!\n보이심까? 아이건 그냥 풍선임다만…"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "왠지, 이걸 가지고 있으면 놀이공원에서 신난 아이처럼 보이네요… 하하.\n아! 제꺼 아님다! …그게, 어쩌다 보니, 잠깐."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "아, 어…… 그렇긴합니다만… 어떻게 알았슴까?\n뭐지…? 얼굴에 티가 났나…?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "뭐 상관없지… 이 각도에서 선생님을 보는 건, 처음임다.\n시점이 다르면, 보이는 방법도 달라지는 것 같다고나 할까……"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "…왠지, 재밌네요. 이 느낌, 마음에 듬다! 하하!"
                 }
             ],
             "CH0079_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "키시싯. 선생이여. 활약은 줄곧 지켜봐 왔다.\n너는 타인을 돕고, 사건을 해결하며…… 샬레의 명성을 높여왔지!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "키키킥, 이래서야 이젠 인정하지 않을 수 없겠지──\n그래, 네가 이 마코토 님과 어깨를 나란히 할 정도의, 실력자라는 걸!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "그 능력을 높이 평가하여…… 거절할 수 없는 중대한 제안을 하도록 하지.\n샬레의 선생이여. 우리 판데모니움 소사이어티와……\n아니, 이 하누마 마코토 님과 손을 잡도록!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "우리가 힘을 합치면, 키보토스의 정복 따윈 식은 죽 먹기!\n만약 그리된다면, 키보토스의 절반을 샬레에게 주도록 하마!\n어때, 나쁘지 않은 거래지?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "자아, 선생! 이 몸과! 원대한 꿈을 이루어 보자꾸나!\n키키킥, 키시시시시시싯!"
                 }
             ],
             "CH0080_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "으…… 이거 뭐야……?\n이, 이상해…… 선생의 명령에 따라야 할 것만 같은 느낌이……"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "에, 엣…… 네…… ……나는 선도부와 사이좋게 지내겠……\n……그런데 마코토 쨩이라면 몰라도, 나는 그렇게 사이가 나쁘지 않아."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "으응?\n큭…… 나는…… 선생님을 괴롭히지 않겠습니다아……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "비, 비겁해! 어른 주제에 최면으로 날 아무렇게나!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "흥, 이 내게 최면을 걸다니…… 방심할 수 없네, 선생.\n어때? 나의 NK 울트라 프로젝트에 참여하는 건?"
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "네, 네에…… 명령이라면……"
                 }
             ],
             "CH0081_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……괜찮으시면 같이 드시겠습니까?\n편의점 음식이지만……."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이렇게 대기하고 있지 않으면 안 되기 때문에,\n간단한 것으로 해결해 둘까 했습니다."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "그나저나 어쩐 일이십니까. 이런 곳까지…….\n……네? 힘들 것 같아서, 격려하려고 생각하셨다고요……?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "과연. 그렇군요.\n……일부러 이런 곳 까지 와 주시다니, 감사드립니다. 선생님."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "예상하지 못했던 전개이기는 했습니다만……\n선생님과 이렇게 있을 수 있다는 것은, 솔직히 기쁩니다."
                 }
             ],
             "CH0082_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "확실히, 물이 차가운 느낌입니다. 사람에 따라서는 체온 저하를 일으킬지도요.\n잠깐이나마, 의식이 흐려질 수도 있을 것 같습니다."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아, 방금은…… '분위기를 해친다'는 말이었겠네요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "저 자신도 약간이나마 놀라고 있습니다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그렇지만, 선생님. 이렇게 새로움으로 가득한 하루를 보냈다면.\n이번만이라도, 새로운 언어를 사용해 보아도 좋지 않을까요."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "……이 물은 정말로 차갑군요.\n그렇지만…… 기분 나쁜 차가움은, 아닌 것 같습니다."
                 }
             ],
             "CH0086_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "이제 곧 첫 차 시간이네."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "기대했던 소리는 아니지만……\n이것도 나쁘지 않아."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "1년에 한 번뿐인 제야의 종소리와는 달리,\n이 울림은 매일 아침마다 울리는. 특별하지도 않은 소리지만……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "새해 첫 하루도 매일 반복되는 하루에 불과하니까.\n오늘이라는 날에 듣는 소리로는, 이게 제일일지도 모르겠어."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "올해도 좋은 한 해가 되기를.\n새해 복 많이 받아, 선생."
                 }
             ],
             "CH0087_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "히, 히익……!? 아, 아……. 선생님……!? 어, 언제부터……!?\n아니요! 그게, 딱히 따지는 건 아닙니다만!! 정말로!!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "어라, 뭔가 전에도 비슷한 일이…… 있었던 것 같은……\n네, 네……? 이거요? 카도마츠……인데요……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "서, 선생님께서 이런 건 마음이 중요하다고 하셔서…….\n그럼 쭉 키워온 이 아이가 좋겠다 싶어, 서……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "설, 설마, 또 쓸데없는 짓을 해버렸나요…!?\n죄송합니다죄송합니다죄송합니다죄송합니다죄송합니다……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "어으음……!? 네……? 저, 정말……이신가요……?\n괜찮…은 건가요…?\n……헤……. ……헤헤……."
                 }
             ],
             "CH0088_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "아~! 역시 선생님이었구나! 기다리고 있었다고!\n바빴어? 미안! 그치만 급했거든!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아아~. 그렇긴 한데……. 이거, 계속 나오는 온천이 아니거든?\n앞으로 몇 시간밖에 안 남았어! 마르기 전에 선생님이 왔으면 해서!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……응? 그런데? 혼자 만든 거야!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "이래 봬도 온천개발부니까!\n아무래도, 따듯한 물이 필요한 사람을 지나칠 순 없거든.\n뭣보다……. 선생님의 일이고 말이지! ……히히!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "자, 자! 사양 말고 들어가! 지금 한창 좋을 온도라고!\n메구 특제, 선생님 전용 온천이야!"
                 }
             ],
             "CH0089_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "와~핫핫핫하! 딱 좋은 타이밍에 왔네!\n잘 왔어, 선생님~. 여기가 나의 86번째 비밀 아지트다."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "여기서 뭐 하냐고? 우문이네, 선생님.\n내가 하는 일이라면 단 하나. 바로…….\n새로운 온천 포인트를 찾고 있다~ 이 말이야!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "하핫, 선생님. 대화가 통해서 좋구만.\n아아, 맞아. 실제로 폭파시킬 곳 주변을 좀 맞춰보고 있었다는 거지."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "흠……. 여기가 좋을까? 아니…… 이쪽도 그럭저럭……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "뭐야, 선생님? 왜 그런 눈으로 날 보는 거지?\n무슨 문제라도 있나?"
                 }
             ],
             "CH0092_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "봐요, 선생님! 빛나요! 바다가 마치 밤하늘 같아요!\n이걸 위해서, 저를 이곳에 데리고 와 주셨던 거네요?"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그러고 보니 팸플릿에도 적혀 있었던 거 같아요.\n'밤이 되면 플랑크톤이 빛나서 별처럼 반짝인다'고……. 정말 예쁘네요."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……후훗, 어떨까요~?\n농담이에요. 오늘 밤은 기분좋게 잘 수 있을 것 같아요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "감사합니다, 선생님. 정말로, 꿈만 같은 하루였어요.\n저……. 이곳에 올 수 있어서 다행이에요."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그치만, 조금만 더…….\n……조금만 이대로, 같이 있어주세요."
                 }
             ],
             "CH0095_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……신기하네요.\n종이에 글씨를 쓸 때와는 달리, 기분이 고양되는 것 같아요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "기록이란 본래 현재의 의사를 미래에 전달하기 위한 수단일 텐데.\n비가 그치고 해가 뜨면 사라져 버리는 찰나의 기록이라니……"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "이성과 진실, 합리를 기록하기에 이 유리판은 너무나도 연약하네요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
+                    "script": "하지만…… 그래서 저는 이 거대한 서판이 더 마음에 들어요. 후후."
                 }
             ],
             "CH0098_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "어라? 이런 시간에 웬일이야, 주인님?\n……나? 나야 보는대로 빨래하러 왔지!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "……빨래하러 왔는데 왜 그 모습이냐고? 그야 나머지는 전부 다 빨고 있으니까.\n지금은 속옷까지 다 빨아서, 다른 게 없는 걸?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "에~. 거짓말 아닌데? 그럼 직접 보고 확인해볼래?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "아하하, 얼굴 빨개! 근데 그럼 주인님은 여기 왜 온 거야?\n……응? 나 보러 왔다고? 이 시간에?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "신난다! 마침 혼자 있기 지루하던 참이었는데!\n고마워, 주인님!! 자, 그럼 뭐 하고 놀까?"
                 }
             ],
             "CH0099_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "죄송합니다. 이런 생각, 메이드로서는 실격일 텐데.\n저는 자신감을 잃고 있었어요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "주인님은 늘 많은 것을 짊어지시고,\n그러신데도 괜찮다며 웃으시고."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "저는…… 전혀 그 짐을 대신해서 들어드리지 못하고……"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "그렇지만 주인님의 대답으로,\n다시 자신감을 찾을 수 있을 것 같아요."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "앞으로도, 부족한 몸이지만 아무쪼록 잘 부탁드립니다.\n주인님."
                 }
             ],
             "CH0100_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "서, 선생님!? 아니……! 이, 이건 그……!\n잠깐만, 지금은 자세를 바꿀 수가 없어서……!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그, 지금은 저격 임무 중이고……!\n타깃으로부터 조준을 뗄 수는 없으니까……. 그래서……!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……뭐? 그쪽은 괜찮다고?\n……오히려 그대로 좋다고? 잠깐……!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "뭐, 뭔가 기뻐하는 것 같지만 그래도 역시 좀……!\n역시 무리다. 부끄러워……!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "뭐? 신경 쓰지 말고 마저 하라고……?\n어떻게 신경을 안 쓰라는 거야, 바보……!"
                 }
             ],
             "CH0101_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "……뭐, 뭐야. 왜 그렇게 봐."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "……응. OK. 잘 붙었어?\n아아. 괜찮네. 땡큐."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……말해두지만, 보통은 이런 거 누구한테도 부탁하지 않으니까.\n선생이니까 부탁한 거지……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……뭐, 됐어.\n여전히 선생은 이상한 사람이야."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "뭐, 그러니까……. 음…….\n……알고 있겠지만 이거, 다른 녀석들에게는 말하지 말라고."
                 }
             ],
             "CH0107_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "선생님, 어떠신가요?\n이 무심한 듯 땡그란 눈동자에……. 깊이 사색하는 듯한 표정…….\n정말이지. 엄청 귀엽지 않나요?!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "하아, 하늘이 내린 조형…… 최고……\n살아있어서 다행이다……!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "네, 정말이지 모두 귀엽고 소중한 아이들이랍니다.\n사랑스러운 아이, 멋진 아이, 쿨한 아이, 아름다운 아이…….\n후훗…. 마치 백귀야행의 학생들 같네요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "다들 다르기 때문에, 가끔씩 부딪칠 때도 있지만……\n각자 빛나는 개성을 가진 소중한 학생, 이라는 생각이 들어서요."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "서, 선생님……?! 우으…… 갑자기 그런……\n가, 감사, 합…… 니다……. 선생님……"
                 }
             ],
             "CH0109_home": [
@@ -818,199 +792,203 @@
             "CH0110_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "축제에 어서 오세요, 선생님!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "에헤헤. 어때요?\n지금까지 계속 준비하고 있던 건…… 전부 이 순간을 위해서였어요!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "누구에게도 알리지 않았고, 누구도 초대하지 않았답니다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "이 축제는…… 선생님을 위한 것이니까요!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "다른 누구도 없는, 저와 선생님만의 축제……\n조금 부끄럽기도 하지만…… 마음에 드셨으면 좋겠어요!"
                 }
             ],
             "CH0113_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "그럼 보여드리겠소이다!\n내가 고안해낸, 새로운 미치루류 인법을!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "<인법! 반짝반짝 파이어의 술!>"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "아하핫! 선생 공-! 어때어때? 느낌 있지 않아??\n내 멋진 모습, 잘 나오고 있어?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "이 닌자다운 판타스틱함…. 완벽해!\n역시 나야말로, 인법연구부 최강의 부장!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "아, 여기서부터가 또 굉장하니까. 잘 보고 있으라구!\n하나- 둘!"
                 }
             ],
             "CH0114_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "우, 우으….\n이곳을 지나, 지름길로 가려고, 했는데요오…"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "보다시피, 중간에, 꽉 껴버리는 바람에…."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "하지만, 이럴 때야말로… 인법으로, 어떻게든…?!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "우으, 우으으으읏!!!\n여, 역시 무리였어요오……"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "우으…. 우……\n선생님……. 도와주지, 않으실래요……?"
                 }
             ],
             "CH0123_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "자, 선생님. 이불 바깥은 춥지?\n고집부리지 말고 이리로 와."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이불도 푹신푹신하고, 따듯하다구?\n이 안이라면 금방 잠들 수 있을 거야."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "혹시 이불을 덮어도 춥다면……\n내가 대신 탕파가 되어줄 테니까."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "응? 원래 있던 탕파……?\n그러니까…… 전부, 마셔버렸어."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그게, 이불 안이 말이야, 모르스를 덥히기에 딱 좋은 온도여서.\n아까 일하던 중에 탕파의 내용물을 특제 모르스로 바꾸어 두었거든."
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": "그래도 어쩔 수 없잖아?\n이렇게 되었으니 몸을 덥힐 만한 다른 수단도 없고.\n그러니까 오늘 밤은 선생님이 탕파가 되어줘."
                 }
             ],
             "CH0124_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "딱히 나는, 대단한 일을 하고 있는 게 아니야.\n달리 하고 싶은 것도, 스킬도 없고……."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그러니까 나는…… 창작을 계속하고 있을 뿐인지도."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "뭔가…… 이런 것도 나쁘지 않네. 이런 장소에서 말야……\n이런 대화를, 선생과 나누는 거. 좋을지도."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "왜냐면 봐, 창작에는 변화가 필요하잖아?\n선생은, 나에게 변화를 가져다주는 사람이기도 하니까."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "우와─…… 지금 부끄러운 거 말해 버렸을지도.\n아─ 지금은 못 들은 걸로! 잊어버려, 잊어버려! 아하하하!"
                 }
             ],
             "CH0135_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "아…… 그렇군. 조금, 비쳐 보이는 건가."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "뭐, 신경 쓰지 마. 닳는 것도 아니니.\n……이렇게 될 줄 알았으면, 더 귀여운 속옷을 입고 왔을 텐데.\n좀, 아쉬울지도?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "하핫. 뭘 시선을 돌리고 그래.\n난 전혀 신경 쓰지 않는다고?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "선생님은 의외로 그런 구석이 있구나……\n후훗, 마음에 들었어."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "모처럼이니까, 더 곤란하게 해 버릴까……?"
                 }
             ],
             "CH0137_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "그래도…… 제가 당근을 싫어하는 게 변하는 건 아니에요."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "모처럼 선생님과 오기도 했고,\n어엿한 교관이니까 어쩔 수 없이 먹고 있을 뿐이에요. 아시겠어요?\n정말, 선생님은 언제나 억지로……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "만약 당근을 반드시 먹어야 하는 경우라면……\n다음부터는, 여기로 올 거에요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "선생님과 처음 함께 온 장소, 이기도 하고……\n아시겠어요? 좋아하게 된 게 아니라구요? 아시겠죠?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "뭐…… 당근도, 그렇게까지 나쁘지는 않네요."
                 }
             ],
             "CH0138_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "그래…… 비 오는 날의 경치는 좋아해. 여러 가지가 심플하게 보이지.\n백과 흑. 느와르의 세계."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "이 세계는, 지나치리만치 눈부실 정도의 광채로 이루어져 있지."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "하지만, 사람들은 그 사실을 깨닫지 못해……\n나라고 해서 예외는 아니지만."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "하지만 느와르의 세계는 그렇지 않아. 적어도 명쾌하지."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "다만…… 그렇군.\n적어도 우산만큼은…… 길을 잃지 않도록, 밝은색의 우산이 좋겠어."
                 }
             ],
             "CH0139_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후후……. 드디어 이쪽을 바라보아 주는구나.\n하지만 말이다, 선생. 한 번 생각해 보는 것이 어떨까."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "나는 이 순간 정말 약해져 있는 것일 수도 있고…….\n사실은 약해진 척하고 있을 뿐인지도 모르지?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "혹은…… 선생의 반응을 떠 보고 있다거나.\n단지――그대를 깊이 믿고 있는 것일수도 있다."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "하지만…… 그래, 이것만은 약속할 수 있을 듯하구나."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "여기서 무슨 일이 일어나더라도…… 나는 그대를 탓하지 않을 것이다.\n……영원히, 말이지."
                 }
             ],
             "CH0141_home": [
