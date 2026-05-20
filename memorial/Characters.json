@@ -1,8 +1,6 @@
 {
     "characters": [
-        {"id": "CH0172_home", "name": "니코", "new": true},
-        {"id": "CH0174_home", "name": "오토기", "new": true},
-        {"id": "CH0173_home", "name": "쿠루미", "new": true},
+        {"id": "erika_home", "name": "에리카", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "Nagisa_home", "name": "나기사"},
         {"id": "CH0293_home", "name": "나기사(수영복)"},
@@ -20,6 +18,7 @@
         {"id": "CH0285_home", "name": "노아(파자마)"},
         {"id": "CH0243_home", "name": "노조미"},
         {"id": "CH0109_home", "name": "니야"},
+        {"id": "CH0172_home", "name": "니코"},
         {"id": "CH0166_home", "name": "라브"},
         {"id": "CH0305_home", "name": "레나"},
         {"id": "CH0245_home", "name": "레이"},
@@ -145,6 +144,7 @@
         {"id": "Eimi_home", "name": "에이미"},
         {"id": "CH0337_home", "name": "에이미(무장)"},
         {"id": "CH0219_home", "name": "에이미(수영복)"},
+        {"id": "CH0174_home", "name": "오토기"},
         {"id": "Yoshimi_home", "name": "요시미"},
         {"id": "CH0220_home", "name": "요시미(밴드)"},
         {"id": "Wakamo_home", "name": "와카모"},
@@ -219,6 +219,7 @@
         {"id": "CH0232_home", "name": "코타마(캠핑)"},
         {"id": "Koharu_home", "name": "코하루"},
         {"id": "CH0205_home", "name": "코하루(수영복)"},
+        {"id": "CH0173_home", "name": "쿠루미"},
         {"id": "Kirara_home", "name": "키라라"},
         {"id": "kirino_home", "name": "키리노"},
         {"id": "CH0262_home", "name": "키리노(수영복)"},
