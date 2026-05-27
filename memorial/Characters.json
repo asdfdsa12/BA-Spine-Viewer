@@ -1,6 +1,7 @@
 {
     "characters": [
-        {"id": "erika_home", "name": "에리카", "new": true},
+        {"id": "CH0246_home", "name": "무츠키(드레스)", "new": true},
+        {"id": "CH0247_home", "name": "하루카(드레스)", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "Nagisa_home", "name": "나기사"},
         {"id": "CH0293_home", "name": "나기사(수영복)"},
@@ -141,6 +142,7 @@
         {"id": "CH0231_home", "name": "아코(드레스)"},
         {"id": "CH0228_home", "name": "야쿠모"},
         {"id": "CH0304_home", "name": "에리"},
+        {"id": "erika_home", "name": "에리카"},
         {"id": "Eimi_home", "name": "에이미"},
         {"id": "CH0337_home", "name": "에이미(무장)"},
         {"id": "CH0219_home", "name": "에이미(수영복)"},

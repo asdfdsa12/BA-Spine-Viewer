@@ -1,5 +1,6 @@
 {
     "characters": [
+        {"id": "NP0283_spr", "name": "니코(아르바이트)", "new": true},
         {"id": "NP0290_spr", "name": "가짜 총학생회장"},
         {"id": "CH0222_spr", "name": "나구사"},
         {"id": "NP0162_spr", "name": "나구사_2"},
