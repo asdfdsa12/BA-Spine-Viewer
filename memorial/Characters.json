@@ -1,7 +1,6 @@
 {
     "characters": [
-        {"id": "CH0246_home", "name": "무츠키(드레스)", "new": true},
-        {"id": "CH0247_home", "name": "하루카(드레스)", "new": true},
+        {"id": "CH0303_home", "name": "나구사(수영복)", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "Nagisa_home", "name": "나기사"},
         {"id": "CH0293_home", "name": "나기사(수영복)"},
@@ -51,6 +50,7 @@
         {"id": "Moe_home", "name": "모에"},
         {"id": "CH0216_home", "name": "모에(수영복)"},
         {"id": "Mutsuki_home", "name": "무츠키"},
+        {"id": "CH0246_home", "name": "무츠키(드레스)"},
         {"id": "mutsuki_newyear_home", "name": "무츠키(새해)"},
         {"id": "CH0138_home", "name": "미나"},
         {"id": "CH0152_home", "name": "미네"},
@@ -246,6 +246,7 @@
         {"id": "CH0191_home", "name": "하루나(새해)"},
         {"id": "CH0193_home", "name": "하루나(체육복)"},
         {"id": "Haruka_home", "name": "하루카"},
+        {"id": "CH0247_home", "name": "하루카(드레스)"},
         {"id": "CH0087_home", "name": "하루카(새해)"},
         {"id": "Hasumi_home", "name": "하스미"},
         {"id": "CH0291_home", "name": "하스미(수영복)"},
