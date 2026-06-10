@@ -341,7 +341,10 @@
                 const slider = document.createElement('input');
                 slider.type = "range";
                 slider.min = "0";
-                slider.max = "1";
+                if(slot.data.blendMode === 1)
+                   slider.max = "0.2";
+                else
+                    slider.max = "1";
                 slider.step = "0.01";
                 slider.value = slot.color.a;
                 slider.style.width = "100%";
@@ -681,7 +684,11 @@
                         if (slot.data.blendMode === 1) {
                             const attachmentName = slot.attachment ? slot.attachment.name : "";
                             if(!attachmentName.includes("Eye"||"eye")){
-                                slot.data.attachmentName="null";
+                                if(slot.data.name!=slot.attachment?.name){
+                                    slot.data.attachmentName="null";
+                                }
+                                else
+                                    slot.data.color.a=0.2;
                             }
                         }
                     });
