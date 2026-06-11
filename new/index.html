@@ -89,30 +89,6 @@
             transform-origin: top left;
         }
 
-        #subtitle-container {
-            position: absolute;
-            bottom: 50px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80%;
-            max-width: 800px;
-            background: rgba(0, 0, 0, 0.6);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            border: 2px solid #007bff;
-            text-align: center;
-            font-size: 1.2rem;
-            z-index: 1000;
-            display: none;
-            pointer-events: none;
-        }
-
-        #subtitle-text {
-            line-height: 1.5;
-            white-space: pre-wrap;
-        }
-
         .search-container { position: relative; width: 100%; }
         #charSearch { 
             width: 100%; padding: 12px; border-radius: 4px; background: #444; 
@@ -282,10 +258,6 @@
 
     <div id="viewer-container">
         <div id="player-container"></div>
-        
-        <div id="subtitle-container">
-            <div id="subtitle-text"></div>
-        </div>
     </div>
 
     <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
@@ -403,25 +375,6 @@
                 slotWrapper.appendChild(slider);
                 container.appendChild(slotWrapper);
             });
-        }
-
-        function displaySubtitle(selectedCharacter, animName) {
-            const subtitleDiv = document.getElementById("subtitle-container");
-            const subtitleText = document.getElementById("subtitle-text");
-
-            const characterScripts = scriptData[selectedCharacter];
-            if (characterScripts) {
-                const baseAnimName = animName.match(/Talk_\d+/)?.[0] || animName;
-                const scriptItem = characterScripts.find(item => item.animation === baseAnimName);
-
-                if (scriptItem) {
-                    subtitleText.innerText = scriptItem.script;
-                    subtitleDiv.style.display = "block";
-                    
-                    return;
-                }
-            }
-            subtitleDiv.style.display = "none";
         }
 
         function enableCanvasDrag() {
@@ -729,12 +682,6 @@
                 currentAudio.src="";
                 currentAudio = null;
             }
-            const subtitleDiv = document.getElementById("subtitle-container");
-            const subtitleText = document.getElementById("subtitle-text");
-            if (subtitleDiv) {
-                subtitleDiv.style.display = "none";
-                subtitleText.innerText = "";
-            }
             if (player) {
                 player.dispose();
                 player=null;
@@ -763,9 +710,6 @@
                         p.animationState.setAnimation(0, "00", true);
                     }
                     p.animationState.addListener({
-                        start: function(entry) {
-                            displaySubtitle(selectedCharacter, entry.animation.name);
-                        },
                         event: function(entry, event) {
                             if (event.data.name === "Talk" && p === player) {
                                 const audioFileName = event.stringValue ? event.stringValue.toLowerCase() : null;

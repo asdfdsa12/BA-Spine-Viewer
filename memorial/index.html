@@ -104,11 +104,10 @@
             transform: translateX(-50%);
             width: 80%;
             max-width: 800px;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.4);
             color: white;
             padding: 20px;
             border-radius: 10px;
-            border: 2px solid #007bff;
             text-align: center;
             font-size: 1.2rem;
             z-index: 1000;
@@ -342,7 +341,7 @@
                 slider.type = "range";
                 slider.min = "0";
                 if(slot.data.blendMode === 1)
-                   slider.max = "0.2";
+                   slider.max = "0.3";
                 else
                     slider.max = "1";
                 slider.step = "0.01";
@@ -351,7 +350,10 @@
 
                 slider.oninput = (e) => {
                     const alpha = parseFloat(e.target.value);
-                    slot.color.a = alpha;
+                    if(slot.attachment)
+                        slot.attachment.color.a = alpha;
+                    else
+                        slot.color.a=alpha;
                 };
 
                 slotWrapper.appendChild(label);
@@ -684,11 +686,8 @@
                         if (slot.data.blendMode === 1) {
                             const attachmentName = slot.attachment ? slot.attachment.name : "";
                             if(!attachmentName.includes("Eye"||"eye")){
-                                if(slot.data.name!=slot.attachment?.name){
-                                    slot.data.attachmentName="null";
-                                }
-                                else
-                                    slot.data.color.a=0.2;
+                                if(slot.attachment)
+                                    slot.attachment.color.a=0.3;
                             }
                         }
                     });
