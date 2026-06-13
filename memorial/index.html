@@ -126,14 +126,63 @@
             color: white; border: 1px solid #666; outline: none; box-sizing: border-box;
         }
         .options-list { 
-            position: absolute; top: 50px; left: 0; width: 100%; max-height: 400px; 
-            background: #333; border: 1px solid #555; border-radius: 4px; 
-            overflow-y: auto; z-index: 1100; display: none;
+            position: absolute; 
+            top: 50px; 
+            left: 0; 
+            width: 160%; 
+            max-height: 600px; 
+            border: 1px solid #555; 
+            border-radius: 4px; 
+            overflow-y: auto; 
+            z-index: 1100; 
+            display: none;
+            grid-template-columns: 1fr 1fr; 
+            gap: 1px; 
+            background: #444;
         }
-        .options-list.show { display: block; }
-        .option-item { padding: 12px; cursor: pointer; border-bottom: 1px solid #444; font-size: 14px; }
-        .option-item:hover { background: #2b6cb0; }
-        .option-item.hidden { display: none; }
+
+        .options-list.show { 
+            display: grid; 
+        }
+
+        .option-item { 
+            padding: 12px 8px; 
+            cursor: pointer; 
+            font-size: 13px; 
+            background: #333; 
+            
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .option-thumb {
+            width: 150px;          
+            height: 150px;         
+            border-radius: 6px;   
+            object-fit: cover;    
+            background: #222;     
+            flex-shrink: 0;       
+        }
+
+        .option-item span {
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 15px;
+        }
+
+        .option-item:hover { 
+            background: #2b6cb0; 
+        }
+
+        .option-item.hidden { 
+            display: none !important;
+        }
 
         .btn-group { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
         button.action-btn { padding: 12px; border-radius: 4px; border: none; cursor: pointer; color: white; background: #555; width: 100%; }
@@ -152,12 +201,6 @@
             display: flex;
             flex-direction: column;
             gap: 4px;
-        }
-
-        #animation-list::-webkit-scrollbar { width: 6px; }
-        #animation-list::-webkit-scrollbar-thumb {
-            background: #555;
-            border-radius: 10px;
         }
 
         #animation-list button {
@@ -257,6 +300,8 @@
         
         let isSubtitleEnabled = true;
 
+        let url = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/assets`;
+
         async function initCharacterList() {
             try {
                 const response = await fetch('Characters.json');
@@ -270,12 +315,23 @@
                 data.characters.forEach(char => {
                     const div = document.createElement('div');
                     div.className = 'option-item';
-                    
                     div.setAttribute('data-value', char.id);
-                    div.textContent = char.name;
+                    
+                    if((char.id.includes("_home")||char.id.includes("multi"))&&!char.id.includes("BG")&&!char.id.includes("background")){
+                    div.innerHTML = `
+                        <img src="${url}/icons/Lobbyillust_Icon_${char.id.replace('_home','')}_01.png" class="option-thumb"">
+                        <span>${char.name}</span>
+                    `;}
+                    else{
+                        div.innerHTML = `
+                        <img src="${url}/icons/default.png" class="option-thumb"">
+                        <span>${char.name}</span>
+                    `;
+                    }
 
                     if (char.new === true) {
-                        div.style.color = "red";
+                        const span = div.querySelector('span');
+                        if (span) span.style.color = "red";
                     }
 
                     div.onclick = () => {
@@ -305,7 +361,9 @@
                     listContainer.classList.add('show');
 
                     optionItems.forEach(item => {
-                        const text = item.textContent.toLowerCase();
+                        const spanText = item.querySelector('span')?.textContent || '';
+                        const text = spanText.toLowerCase();
+                        
                         if (text.includes(filter)) {
                             item.classList.remove('hidden');
                         } else {
@@ -333,8 +391,6 @@
 
                 const label = document.createElement('div');
                 label.style.fontSize = "12px";
-                label.style.marginBottom = "4px";
-                label.style.color = "#ccc";
                 label.textContent = slot.data.name;
 
                 const slider = document.createElement('input');
@@ -345,7 +401,7 @@
                 else
                     slider.max = "1";
                 slider.step = "0.01";
-                slider.value = slot.color.a;
+                slider.value = slider.max
                 slider.style.width = "100%";
 
                 slider.oninput = (e) => {
@@ -508,9 +564,9 @@
                             player.animationState.setAnimation(2, animA, true);
                         }
                     } else {
-                        if(selectedCharacter!=="arona_workpage"&&selectedCharacter!=="arona_workpage_daytime"&&selectedCharacter!=="arona_workpage_nighttime"){
+                        if(!selectedCharacter.includes("arona_")){
                             if (name == "Idle_01") {
-                                player.animationState.setAnimation(0, "Idle_01", true);
+                                player.animationState.setAnimation(0, name, true);
                                 player.animationState.setEmptyAnimation(1, 0.2);
                             } else {
                                 player.animationState.setAnimation(1, name, true);
@@ -673,8 +729,8 @@
             }
 
             player = new spine.SpinePlayer("player-container", {
-                skelUrl: `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/assets/${selectedCharacter}.skel`, 
-                atlasUrl: `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/assets/${selectedCharacter}.atlas`,
+                skelUrl: `${url}/${selectedCharacter}.skel`, 
+                atlasUrl: `${url}/${selectedCharacter}.atlas`,
                 showControls: false,
                 premultipliedAlpha: false,
                 backgroundColor: "#00000000",
@@ -704,7 +760,9 @@
                         
                     let defaultAnim = "";
                     
-                    if (animations.includes("Idle_01")) {
+                    if(selectedCharacter.includes("arona_"))
+                        defaultAnim = "Idle_background_00";
+                    else if (animations.includes("Idle_01")) {
                             defaultAnim = "Idle_01";
                     } else {
                         const fallbackIdle = animations.find(name => name.includes("Idle"));

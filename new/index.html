@@ -269,15 +269,6 @@
 
         let currentAudio = null;
 
-        let scriptData = null;
-
-        fetch('Script.json')
-            .then(response => response.json())
-            .then(data => {
-                scriptData = data.character[0];
-            }
-        );
-
         async function initCharacterList() {
             try {
                 const response = await fetch('Characters.json');
