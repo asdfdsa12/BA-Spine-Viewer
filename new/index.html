@@ -95,14 +95,52 @@
             color: white; border: 1px solid #666; outline: none; box-sizing: border-box;
         }
         .options-list { 
-            position: absolute; top: 50px; left: 0; width: 100%; max-height: 400px; 
+            position: absolute; top: 50px; left: 0; width: 100%; max-height: 600px; 
             background: #333; border: 1px solid #555; border-radius: 4px; 
             overflow-y: auto; z-index: 1100; display: none;
         }
-        .options-list.show { display: block; }
-        .option-item { padding: 12px; cursor: pointer; border-bottom: 1px solid #444; font-size: 14px; }
-        .option-item:hover { background: #2b6cb0; }
-        .option-item.hidden { display: none; }
+
+        .options-list.show { 
+            display: block; 
+        }
+
+        .option-item { 
+            padding: 12px 8px; 
+            cursor: pointer; 
+            font-size: 13px; 
+            background: #333; 
+            
+            display: flex;
+            align-items: center;    
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .option-thumb {
+            width: 60px;          
+            height: 60px;         
+            border-radius: 6px;   
+            object-fit: cover;    
+            background: #222;     
+            flex-shrink: 0;       
+        }
+
+        .option-item span {
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 15px;
+        }
+
+        .option-item:hover { 
+            background: #2b6cb0; 
+        }
+
+        .option-item.hidden { 
+            display: none !important;
+        }
 
         .btn-group { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
         button.action-btn { padding: 12px; border-radius: 4px; border: none; cursor: pointer; color: white; background: #555; font-weight: bold; width: 100%; }
@@ -269,6 +307,8 @@
 
         let currentAudio = null;
 
+        let url = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/new/assets`;
+
         async function initCharacterList() {
             try {
                 const response = await fetch('Characters.json');
@@ -282,12 +322,16 @@
                 data.characters.forEach(char => {
                     const div = document.createElement('div');
                     div.className = 'option-item';
-                    
                     div.setAttribute('data-value', char.id);
-                    div.textContent = char.name;
+                    
+                    div.innerHTML = `
+                        <img src="${url}/icons/Portrait_${char.id.replace('_spr','')}.png" class="option-thumb" onerror="console.clear(); this.remove()"">
+                        <span>${char.name}</span>
+                    `;
 
                     if (char.new === true) {
-                        div.style.color = "red";
+                        const span = div.querySelector('span');
+                        if (span) span.style.color = "red";
                     }
 
                     div.onclick = () => {
@@ -317,7 +361,9 @@
                     listContainer.classList.add('show');
 
                     optionItems.forEach(item => {
-                        const text = item.textContent.toLowerCase();
+                        const spanText = item.querySelector('span')?.textContent || '';
+                        const text = spanText.toLowerCase();
+                        
                         if (text.includes(filter)) {
                             item.classList.remove('hidden');
                         } else {
