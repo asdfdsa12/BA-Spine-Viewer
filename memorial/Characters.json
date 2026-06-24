@@ -1,7 +1,9 @@
 {
     "characters": [
-        {"id": "CH0303_home", "name": "나구사(수영복)", "new": true},
+        {"id": "CH0355_home", "name": "슌(수영복)", "new": true},
+        {"id": "CH0356_home", "name": "키사키(수영복)", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
+        {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
         {"id": "CH0293_home", "name": "나기사(수영복)"},
         {"id": "CH0155_home", "name": "나츠"},
