@@ -312,7 +312,7 @@
         </div>
         <div class="voice-changer">
             <div class="slider-header" style="margin-bottom: 10px;">
-                <span>보이스 변경(Kr 미보유시 무음)</span>
+                <span>보이스 변경(미보유시 무음)</span>
             </div>
             <div id="voice-list"></div>
         </div>
@@ -742,7 +742,7 @@
 
         let voiceSel=""
         
-        async function buildVoiceList() {
+        function buildVoiceList() {
             const list = document.getElementById("voice-list");
             list.innerHTML = "";
 
@@ -762,6 +762,7 @@
 
             list.appendChild(createVoiceButton("Jp", ""));
             list.appendChild(createVoiceButton("Kr", "_KR/"));
+            list.appendChild(createVoiceButton("Cn", "_CN/"));
         }
 
         function playSfx(selectedCharacter,fileName) {
