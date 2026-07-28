@@ -1996,45 +1996,45 @@
             "CH0201_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "우헤헤……. 과자 맛있어…….\n햇살도 따듯하고…… 소파도 푹신하고……."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "우웅…… 청소……?\n할 거야…… 이것만 먹고…… 좀 쉬었다가……"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "어라? 선생님?\n아, 그렇구나. 이거 아직 꿈이네."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "꿈에서도 선생님을 만날 수 있다니…… 좋은 꿈이네……\n오늘은 뭔가 재미있는 일이 생길지도…… 우헤헤……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "흠냐흠냐……. 아, 보너스 목숨이다……."
                 }
             ],
             "CH0202_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "죄, 죄송합니다. 주인님!\n저, 또 다시 실수해 버려서, 넘어져서……."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "괜찮…… 습니다. 주인님께서, 내리시는 질책이라면…….\n어떤 것이라도…… 받아들일 테니까요……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……어, 어떤가요?"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "하, 하지만 이건 그런 상황이니까요!\n사진을 찍어달라고 부탁한 건, 제 쪽이었고……"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "저기, 선생님?\n오늘의 메이드 미도리는, 만족스러우셨나요?"
                 }
             ],
             "CH0203_home": [
@@ -2326,23 +2326,23 @@
             "CH0221_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "여, 여기…… 여기야 선생님……"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "우으…… 드럼 세트 안에…… 있어…… 검고 바스락거리며 움직이는……. 그 녀석이.\n그런데 아무리 뒤져도 찾을 수가 없어……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "무, 무슨 소리야 선생님?! 키보토스에 그것을 무서워하지 않는 여고생은 없다고!\n총알 같은 것 보다 훨씬 무서운 거라고!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "우으, 이대로는……. 모처럼 손에 넣은 한정판 마카다미아 쿠키가, 희생양이 돼버릴 거야……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그러니까 부탁해, 선생님……. 살려줘……."
                 }
             ],
             "CH0222_home": [
@@ -2770,23 +2770,23 @@
             "CH0251_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "에헤헤……. 자요, 선생님!\n이쪽으로! 사양 마시고!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "……? 선생님……? 왜 그러세요?\n혹시……. 곤란하시게 만든 걸까요?"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "우움~! 모처럼 용기를 냈는데…….\n억지 부리고 있는 저도 그렇지만……. 그래도 조금은 맞춰 주셨으면 해요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……후후후. 네! 좋아요!\n(……이 비에 감사해야겠는걸)"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "제가 신호하면, 같이 달리는 거예요!\n준비 되셨죠? 그럼 갑니다~!"
                 }
             ],
             "CH0255_home": [
@@ -3522,67 +3522,67 @@
             "CH0300_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "어때? 꽤나 좋지 않아?\n오늘을 위해 만들어 봤지. 마음껏 즐겨줬으면 좋겠어."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "사실…… 처음이야.\n뭔가를 만들며 그 사람의 얼굴이 계속 떠오른 것도. 이렇게 무방비한 모습을 다른 사람에게 보이는 것도."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "딱히…… 누구라고까지는 말하지는 않겠지만."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……앞으로도 내 곁에 있어 줘. 나도 항상 당신의 곁을 지킬 테니까."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "……이 동맹은, 영원한 거야."
                 }
             ],
             "CH0301_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "(선생님! 바닷물 속에 있는 소녀를 찾아내어 주셨군요!)"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "(언제나 발치에서 내려다볼 뿐이던 바닷속에,)\n(이토록이나 아름다운 풍경이 숨겨져 있을 줄이야.)"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "(그리고 그런 장소에서 선생님과 마주 보며 함께 하게 될 줄이야.)\n(아아, 소녀는 어쩜 이렇게 행운아일까요?)"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "(어라, 선생님? 표정이 뭔가, 어라라……?)\n(소녀, 무언가 잘못했사와요?)"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "(위에? 위에는 해님 말고 아무것도…….)\n(네? 그게 아니어요?)"
                 }
             ],
             "CH0302_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "청춘은, 빨리 지나가는 것 같아.\n격렬하게 타오르다가, 금방 꺼지는…… 이 불꽃처럼."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "나도 처음엔 그렇게 생각했어. ……단련만 하다가, 청춘이 끝나버리겠지하고."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "하지만 이젠 아니야. 스승님과 만나고 많은 게 바뀌었으니까.\n매일이 즐겁고 충실한 느낌이야."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "물론, 시간은 돌이킬 수 없지만…… 앞으로도, 충분히 청춘을 즐길 수 있다 생각해.\n불꽃이 꺼질 것 같으면, 새로운 장작을 태우면 되니까."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그러니까 스승님…… 계속 함께 청춘, 해줄……거지?"
                 }
             ],
             "CH0303_home": [

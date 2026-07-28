@@ -227,6 +227,57 @@
             border-color: #63b3ed;
             color: #ffffff;
         }
+
+        .voice-changer{
+            background: #333;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            margin-top: 10px;
+        }
+
+        #voice-list {
+            max-height: 150px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        #voice-list button {
+            width: 100%;
+            min-height: 30px; 
+            padding: 0 15px;
+            
+            background: #444;
+            color: #eee;
+            border: 1px solid #555;
+            border-radius: 4px;
+            cursor: pointer;
+            
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1;
+            
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.2s;
+        }
+
+        #voice-list button:hover {
+            background: #3a3a3a;
+            border-color: #2b6cb0;
+        }
+
+        #voice-list button.active {
+            background: #2b6cb0;
+            border-color: #63b3ed;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -258,6 +309,12 @@
                 <span>애니메이션 목록</span>
             </div>
             <div id="animation-list"></div>
+        </div>
+        <div class="voice-changer">
+            <div class="slider-header" style="margin-bottom: 10px;">
+                <span>보이스 변경(Kr 미보유시 무음)</span>
+            </div>
+            <div id="voice-list"></div>
         </div>
         <button onclick="location.href='../'" style="height: 35px; font-size:15px">메인으로</button>
         <button id="subtitle-toggle" class="action-btn" onclick="toggleSubtitleSetting()" style="line-height: 10px; font-size: 15px; background: #2b6cb0;">
@@ -683,17 +740,39 @@
             link.click();
         }
 
+        let voiceSel=""
+        
+        async function buildVoiceList() {
+            const list = document.getElementById("voice-list");
+            list.innerHTML = "";
+
+            function createVoiceButton(text, value) {
+                const btn = document.createElement("button");
+                btn.textContent = text;
+
+                btn.onclick = () => {
+                    Array.from(list.children).forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+
+                    voiceSel = value;
+                };
+
+                return btn;
+            }
+
+            list.appendChild(createVoiceButton("Jp", ""));
+            list.appendChild(createVoiceButton("Kr", "_KR/"));
+        }
+
         function playSfx(selectedCharacter,fileName) {
             const charCodeMatch = fileName.match(/^(.+?)(?=_memoriallobby|_)/i);
             const folderName = charCodeMatch ? charCodeMatch[1] : fileName.split('_')[0];
 
-            const audioPath = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/audio/${folderName}/${fileName}.ogg`;
+            const audioPath = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/memorial/audio/${voiceSel}${folderName}/${fileName}.ogg`;
             currentAudio = new Audio(audioPath);
             
             currentAudio.volume = 0.5;
-            currentAudio.play().catch(err => {
-                console.warn("123", err);
-            });
+            currentAudio.play();
         }
 
         function loadSpine() {
@@ -779,7 +858,7 @@
                         trackIndex++;
                     }
                 });
-                    buildSlotOpacityList(p)
+                    buildSlotOpacityList(p);
                     buildAnimationList(p);
                 }
             });
@@ -787,6 +866,7 @@
         window.onload = () => {
             initCharacterList();
             loadSpine();
+            buildVoiceList()
         };
     </script>
 </body>
