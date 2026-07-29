@@ -1,7 +1,10 @@
 {
     "characters": [
-        {"id": "CH0355_home", "name": "슌(수영복)", "new": true},
-        {"id": "CH0356_home", "name": "키사키(수영복)", "new": true},
+        {"id": "CH0344_home", "name": "마코토(수영복)", "new": true},
+        {"id": "CH0345_home", "name": "사츠키(수영복)", "new": true},
+        {"id": "CH0346_home", "name": "이로하(수영복)", "new": true},
+        {"id": "CH0347_home", "name": "이부키(수영복)", "new": true},
+        {"id": "CH0348_home", "name": "치아키(수영복)", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
@@ -97,6 +100,7 @@
         {"id": "CH0295_home", "name": "세이아(수영복)"},
         {"id": "CH9997_home", "name": "쇼쿠호 미사키"},
         {"id": "Shun_home", "name": "슌"},
+        {"id": "CH0355_home", "name": "슌(수영복)"},
         {"id": "CH0066_home", "name": "슌(어린이)"},
         {"id": "Sumire_home", "name": "스미레"},
         {"id": "CH0287_home", "name": "스미레(아르바이트)"},
@@ -228,6 +232,7 @@
         {"id": "kirino_home", "name": "키리노"},
         {"id": "CH0262_home", "name": "키리노(수영복)"},
         {"id": "CH0139_home", "name": "키사키"},
+        {"id": "CH0356_home", "name": "키사키(수영복)"},
         {"id": "CH0225_home", "name": "키쿄"},
         {"id": "CH0300_home", "name": "키쿄(수영복)"},
         {"id": "CH0229_home", "name": "타카네"},
