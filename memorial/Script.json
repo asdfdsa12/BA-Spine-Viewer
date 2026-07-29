@@ -4018,111 +4018,107 @@
             "CH0344_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "나는 언제나 만마전과 게헨나의 공익을 대표하고 있지.\n그런 입장인 만큼, 나 자신의 욕심이나 감정을 둘러보는 것에 서툴렀는지 모른다."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "그러나, 샬레의 선생이여. 이 제안은 만마전 의장으로서가 아닌, 좀 더 사적인 것이다.\n인정하지. 선생은 나에게 있어…… 조금 특별한 존재가 되었는지 모른다."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "몇몇 가치를 포기해서라도, 반드시 쟁취해 내야만 하는 대상이 되고 말았다는 것을."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "아니, 쟁탈……? 제패……? ……이런 마음을 뭐라 표현해야 할지 모르겠군."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "그렇군. 굳이 말하자면. 당신을 갖고 싶다."
                 }
             ],
             "CH0345_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "생각해 보니, 늘 그랬던 것 같아.\n선생은 항상 내 옆에서 함께 걸어줬어."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "내가 매번 제멋대로 굴어도, 선생을 고문하고 최면을 걸어도, 언제나 어울려줘서 고마워." 
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "나를 지켜준다고 말해줘서 고마워. 무서워할 때 손잡아줘서 고마워. 언제든 달려와줘서 고마워."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
-                },
-                {
-                    "animation": "Talk_05",
-                    "script": ""
-                }
+                    "script": "그러니까, 앞으로도…… 부탁할게."
+                } 
             ],
             "CH0346_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후훗, 우스운 표정. 화내지 마세요. 그냥 장난이니까."
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "모래, 따끈따끈하네요. 아직 햇살의 온기가 남아 있어서……."
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "……오늘 하루, 제법 즐거웠지요.\n선생님도? ……같으신가요."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "차라리 이대로…… 돌아가지 말까요?"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "떠날까요? 그러면 좋을 텐데…… 저 멀리."
                 }
             ],
             "CH0347_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "선생님! 이쪽이야! 이 숲, 엄~청 시원해!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "아무리 해님이 쨍쨍 내리쬐어도…… 여기라면……\n봐봐, 나무들이 전부 가려줘서~!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "그러니까! 여기서는…….\n이제 파라솔 안 옮겨도 괜찮아, 선생님!"
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "……응, 사실은 있지. 이부키, 전부 봤어.\n선생님이 영차영차 하고, 파라솔 옮기는 거……."
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "하지만 여기선 안 그래도 돼!\n그냥 이부키랑 푹! 쉬기만 하면 되는 거야!"
                 }
             ],
             "CH0348_home": [
                 {
                     "animation": "Talk_01",
-                    "script": ""
+                    "script": "후훗! 빈틈 발견! 셔터찬스! 아핫! 선생님, 작게 웅크려선…….\n이건 표지에 딱 맞는 구도네요! 훗후웅! 특종감이 없으면 만들면 되는 법!"
                 },
                 {
                     "animation": "Talk_02",
-                    "script": ""
+                    "script": "칫칫칫칫치-! 순진하시군요! 떨어뜨린건 이 병뚜껑 이랍니다!\n말 그대로, 동전 한 닢 안 쓰고 귀한 장면을 연출했네요!"
                 },
                 {
                     "animation": "Talk_03",
-                    "script": ""
+                    "script": "재미없는 선생님은 '테이블 밑에 가두기형'에 처합니다!\n좀 더 재미있는 비밀을 알려주시면 풀어드릴지도오-? 응? 괜찮으세요? 눈도 피하시고……."
                 },
                 {
                     "animation": "Talk_04",
-                    "script": ""
+                    "script": "아직 인터뷰 중이에요! 제대로 여기 봐 주셔야죠!\n왜 여기 봐주지 않으시는 거에요오? 앗, 이거……!"
                 },
                 {
                     "animation": "Talk_05",
-                    "script": ""
+                    "script": "꺄아아앗! 보! 보면 안돼요! 나오면 안 돼! 가만히 있어요!"
                 }
             ],
             "CH0355_home": [
