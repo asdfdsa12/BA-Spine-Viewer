@@ -302,7 +302,7 @@
     
     <script>
         let player = null;
-        let selectedCharacter = "NP0290_spr";
+        let selectedCharacter = "CH0362_spr";
         const isMobile = window.matchMedia("(pointer: coarse)").matches;
 
         let currentAudio = null;
@@ -400,12 +400,15 @@
                 slider.min = "0";
                 slider.max = "1";
                 slider.step = "0.01";
-                slider.value = slot.color.a;
+                slider.value = slider.max
                 slider.style.width = "100%";
 
                 slider.oninput = (e) => {
                     const alpha = parseFloat(e.target.value);
-                    slot.color.a = alpha;
+                    if(slot.attachment)
+                        slot.attachment.color.a = alpha;
+                    else
+                        slot.color.a=alpha;
                 };
 
                 slotWrapper.appendChild(label);
