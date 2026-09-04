@@ -3,116 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <title>BA Spine Viewer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="spine-player.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="spine-player.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
     <style>
-        body { background: #1a1a1a; color: #eee; font-family: sans-serif; margin: 0; overflow: hidden; display: flex; }
+        :root {
+            --ink: #12324d;
+            --ink-soft: #3a5c78;
+            --accent-blue: #447fbe;
+            --pill-pink: #ffc2da;
+            --pill-pink-ink: #9c3868;
+        }
 
-        #sidebar {
+        * { box-sizing: border-box; }
+
+        body {
+            background-color: black;
+            color: #eee;
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+        }
+
+        #menu-toggle, #menu-toggle_right {
+            position: fixed;
+            top: 18px;
+            z-index: 1001;
+            background-color: rgb(223, 223, 223);
+            color: white;
+            border: none;
+            padding: 11px 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Jua', 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #000;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            transition: transform 0.2s ease;
+        }
+        #menu-toggle:hover, #menu-toggle_right:hover { transform: translateY(-2px); }
+        #menu-toggle { left: 18px; }
+        #menu-toggle_right { right: 18px; }
+
+        #sidebar, #sidebar_right {
             position: fixed;
             top: 0;
-            left: -320px;
+            height: 100vh;
             width: 300px;
-            height: 100vh;
-            background: #252525;
-            box-shadow: 5px 0 15px rgba(0,0,0,0.5);
-            transition: left 0.3s ease;
+            background: rgb(53, 53, 53);
+            color: var(--ink);
+            box-shadow: 0 0 30px rgba(0,0,0,0.45);
+            transition: left 0.32s cubic-bezier(.25,.8,.25,1), right 0.32s cubic-bezier(.25,.8,.25,1);
             z-index: 1000;
-            padding: 60px 20px 20px 20px;
+            padding: 70px 18px 20px 18px;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 14px;
+            overflow-y: auto;
         }
-        #sidebar_right {
-            position: fixed;
-            top: 0; 
-            right: -320px;
-            width: 280px;
-            height: 100vh;
-            background: #252525;
-            box-shadow: 5px 0 15px rgba(0,0,0,0.5);
-            transition: right 0.3s ease;
-            z-index: 1000;
-            padding: 60px 20px 20px 20px;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            
-        }
-
+        #sidebar { left: -320px; border-radius: 0 22px 22px 0;}
+        #sidebar_right { right: -320px; width: 280px; border-radius: 22px 0 0 22px;}
         #sidebar.open { left: 0; }
         #sidebar_right.open { right: 0; }
 
-        #menu-toggle {
-            position: fixed;
-            top: 15px;
-            left: 15px;
-            z-index: 1001;
-            background: #2b6cb0;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-        }
-        #menu-toggle_right {
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            z-index: 1001;
-            background: #2b6cb0;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        #sidebar label {
+            font-family: 'Jua', 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+            color: var(--ink-soft);
         }
 
-        #player-container { 
+        .slider-header span, .section-pill {
+            display: inline-block;
+            font-family: 'Jua', 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+            font-size: 13px;
+            background: var(--pill-pink);
+            color: var(--pill-pink-ink);
+            padding: 5px 13px;
+            border-radius: 10px;
+        }
+        .anim-container-wrapper .slider-header span { background: rgb(70, 70, 70); color: rgb(221, 221, 221) }
+
+        #player-container {
             width: 100vw;
-            height: 100vh; 
-            background-color: #1a1a1a;
+            height: 100vh;
+            background-color: transparent;
+            touch-action: none;
         }
 
         #player-container canvas {
             position: absolute;
             width: 200% !important;
             height: 200% !important;
+            left: -50%;
+            top: -50%;
             transform: scale(0.5);
-            transform-origin: top left;
+            transform-origin: center center;
         }
 
         .search-container { position: relative; width: 100%; }
-        #charSearch { 
-            width: 100%; padding: 12px; border-radius: 4px; background: #444; 
-            color: white; border: 1px solid #666; outline: none; box-sizing: border-box;
+        #charSearch {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: 10px;
+            background: #fff;
+            color: var(--ink);
+            border: 1px solid #cfe1f0;
+            outline: none;
+            box-sizing: border-box;
+            font-size: 14px;
         }
-        .options-list { 
-            position: absolute; top: 50px; left: 0; width: 100%; max-height: 400px; 
-            background: #333; border: 1px solid #555; border-radius: 4px; 
+        #charSearch:focus { border-color: var(--accent-blue); box-shadow: 0 0 0 3px rgba(43,108,176,0.15); }
+        #charSearch::placeholder { color: #9fb4c6; }
+
+        .options-list {
+            position: absolute; top: 52px; left: 0; width: 100%; max-height: 600px;
+            background: rgb(39, 39, 39);
             overflow-y: auto; z-index: 1100; display: none;
+            box-shadow: 0 14px 28px rgba(18,50,77,0.22);
+            padding: 6px;
         }
-        .options-list.show { display: block; }
-        .option-item { padding: 12px; cursor: pointer; border-bottom: 1px solid #444; font-size: 14px; }
-        .option-item:hover { background: #2b6cb0; }
-        .option-item.hidden { display: none; }
+
+        .options-list.show {
+            display: block;
+        }
+
+        .option-item {
+            padding: 10px 8px;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .option-item span {
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 15px;
+            font-weight: 500;
+            color:white;
+        }
+
+        .option-item:hover {
+            background: rgb(79, 80, 156);
+        }
+
+        .option-item.hidden {
+            display: none !important;
+        }
 
         .btn-group { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
-        button.action-btn { padding: 12px; border-radius: 4px; border: none; cursor: pointer; color: white; background: #555; font-weight: bold; width: 100%; }
-        button.action-btn:hover { background: #666; }
+
+        button.action-btn {
+            padding: 8px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+            background: rgb(100, 189, 219);
+            font-weight: bold;
+            width: 100%;
+            box-shadow: 0 6px 12px rgba(18,50,77,0.25);
+            transition: transform 0.18s ease;
+        }
+        button.action-btn:hover { transform: translateY(-2px); }
+
         .anim-container-wrapper {
-            background: #333;
-            padding: 10px;
-            border-radius: 6px;
-            border: 1px solid #444;
-            margin-top: 10px;
+            background: rgba(255, 255, 255, 0.192);
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 4px;
         }
 
         #animation-list {
@@ -120,34 +193,35 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 6px;
+            margin-top: 10px;
         }
 
-        #animation-list::-webkit-scrollbar { width: 6px; }
-        #animation-list::-webkit-scrollbar-thumb {
-            background: #555;
+        #animation-list::-webkit-scrollbar{ width: 6px; }
+        #animation-list::-webkit-scrollbar-thumb{
+            background: #b9cfe0;
             border-radius: 10px;
         }
 
         #animation-list button {
-            width: 100%;
-            min-height: 30px; 
+            width: 99%;
+            min-height: 34px;
             padding: 0 15px;
-            
-            background: #444;
-            color: #eee;
-            border: 1px solid #555;
-            border-radius: 4px;
+
+            background: #ffffff;
+            color: var(--ink);
+            border: 1px solid #dbe8f2;
+            border-radius: 10px;
             cursor: pointer;
-            
+
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            
+
             font-size: 14px;
             font-weight: bold;
             line-height: 1;
-            
+
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -155,58 +229,62 @@
         }
 
         #animation-list button:hover {
-            background: #3a3a3a;
-            border-color: #2b6cb0;
+            background: #eaf3fb;
+            border-color: var(--accent-blue);
         }
 
         #animation-list button.active {
-            background: #2b6cb0;
-            border-color: #63b3ed;
+            background: #839dc5;
+            border-color: #839dc5;
             color: #ffffff;
         }
     </style>
 </head>
 <body>
+<body>
 
-    <button id="menu-toggle" onclick="toggleSidebar()">☰ 메뉴 열기</button>
+    <button id="menu-toggle" onclick="toggleSidebar()">☰ 전체 설정</button>
     <button id="menu-toggle_right" onclick="toggleSidebarRight()">☰ 파츠 투명도</button>
 
     <div id="sidebar_right">
         <div class="anim-container-wrapper">
-            <div id="slot-sliders-container" style="overflow-y: auto; max-height: 80vh; padding-right: 20px;">
+            <div class="slider-header" style="margin-bottom: 10px;">
+                <span>파츠 투명도</span>
+            </div>
+            <div id="slot-sliders-container" style="overflow-y: auto; max-height: 75vh; padding-right: 6px;">
             </div>
         </div>
     </div>
 
     <div id="sidebar">
-        <label>캐릭터 검색: </label>
-
         <div class="search-container">
-            <input type="text" id="charSearch" placeholder="이름 입력..." autocomplete="off">
+            <input type="text" id="charSearch" placeholder="캐릭터 검색" style="color:black;" autocomplete="off">
             <div id="options-list" class="options-list"></div>
         </div>
 
-        <button onclick="toggleFullscreen()" style="height: 35px; font-size: 15px">
-            전체화면
-        </button>
-        <button onclick="takeScreenshot()" style="height: 35px; font-size: 15px">이미지 다운로드</button>
+        <div class="btn-group">
+            <button class="action-btn" onclick="toggleFullscreen()">전체화면</button>
+            <button class="action-btn" onclick="takeScreenshot()">이미지 다운로드</button>
+        </div>
+
         <div class="anim-container-wrapper">
-            <div class="slider-header" style="margin-bottom: 15px;">
+            <div class="slider-header" style="margin-bottom: 10px;">
                 <span>애니메이션 목록</span>
             </div>
             <div id="animation-list"></div>
         </div>
-        <button onclick="location.href='../'" style="height: 35px; font-size:15px">메인으로</button>
+        <button class="action-btn" onclick="location.href='../'">메인으로</button>
     </div>
 
-    <div id="player-container"></div>
+    <div id="viewer-container">
+        <div id="player-container"></div>
+    </div>
 
     <script src="spine-player.js"></script>
     
     <script>
         let player = null;
         let selectedCharacter = "nagisa_spr";
-        const isMobile = window.matchMedia("(pointer: coarse)").matches;
 
         function buildAnimationList(player) {
             const list = document.getElementById("animation-list");
@@ -334,7 +412,7 @@
             });
         });
 
-                async function initCharacterList() {
+        async function initCharacterList() {
             try {
                 const response = await fetch('Characters.json');
                 const data = await response.json();
@@ -347,12 +425,13 @@
                 data.characters.forEach(char => {
                     const div = document.createElement('div');
                     div.className = 'option-item';
-                    
                     div.setAttribute('data-value', char.id);
-                    div.textContent = char.name;
+                    
+                    div.innerHTML = `<span>${char.name}</span>`;
 
                     if (char.new === true) {
-                        div.style.color = "red";
+                        const span = div.querySelector('span');
+                        if (span) span.style.color = "red";
                     }
 
                     div.onclick = () => {
@@ -382,7 +461,9 @@
                     listContainer.classList.add('show');
 
                     optionItems.forEach(item => {
-                        const text = item.textContent.toLowerCase();
+                        const spanText = item.querySelector('span')?.textContent || '';
+                        const text = spanText.toLowerCase();
+                        
                         if (text.includes(filter)) {
                             item.classList.remove('hidden');
                         } else {
@@ -473,6 +554,74 @@
             }
         enableCanvasDrag();
 
+        function enableCanvasTouchGestures() {
+            const container = document.getElementById("player-container");
+
+            let dragging = false;
+            let startX = 0, startY = 0;
+            let offsetX = 0, offsetY = 0;
+            let pinchStartDist = null;
+            let scale = 0.5;
+
+            function currentOffset() {
+                const match = container.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)/);
+                return match ? { x: parseFloat(match[1]), y: parseFloat(match[2]) } : { x: offsetX, y: offsetY };
+            }
+
+            function touchDistance(touches) {
+                const dx = touches[0].clientX - touches[1].clientX;
+                const dy = touches[0].clientY - touches[1].clientY;
+                return Math.hypot(dx, dy);
+            }
+
+            container.addEventListener("touchstart", e => {
+                if (e.touches.length === 1) {
+                    dragging = true;
+                    const off = currentOffset();
+                    offsetX = off.x;
+                    offsetY = off.y;
+                    startX = e.touches[0].clientX;
+                    startY = e.touches[0].clientY;
+                } else if (e.touches.length === 2) {
+                    dragging = false;
+                    pinchStartDist = touchDistance(e.touches);
+                }
+            }, { passive: false });
+
+            container.addEventListener("touchmove", e => {
+                e.preventDefault();
+
+                if (e.touches.length === 1 && dragging) {
+                    const dx = e.touches[0].clientX - startX;
+                    const dy = e.touches[0].clientY - startY;
+                    container.style.transform = `translate(${offsetX + dx}px, ${offsetY + dy}px)`;
+                } else if (e.touches.length === 2 && player && player.canvas) {
+                    const newDist = touchDistance(e.touches);
+                    if (pinchStartDist) {
+                        const delta = (newDist - pinchStartDist) * 0.001;
+                        scale = Math.min(Math.max(scale + delta, 0.1), 2.0);
+                        player.canvas.style.transform = `scale(${scale})`;
+                    }
+                    pinchStartDist = newDist;
+                }
+            }, { passive: false });
+
+            container.addEventListener("touchend", e => {
+                if (e.touches.length === 0) {
+                    dragging = false;
+                    pinchStartDist = null;
+                } else if (e.touches.length === 1) {
+                    dragging = true;
+                    const off = currentOffset();
+                    offsetX = off.x;
+                    offsetY = off.y;
+                    startX = e.touches[0].clientX;
+                    startY = e.touches[0].clientY;
+                }
+            });
+        }
+        enableCanvasTouchGestures();
+
         function enableCanvasWheelScale(p) {
             let scale = 0.5;
 
@@ -489,6 +638,57 @@
 
                 p.canvas.style.transform = `scale(${scale})`;
             }, { passive: false });
+        }
+
+        function buildAnimationList(player) {
+            const list = document.getElementById("animation-list");
+            list.innerHTML = "";
+
+            const animations = player.skeleton.data.animations;
+            const animNames = animations.map(a => a.name);
+
+            const processedBases = new Set();
+
+            animations.forEach(anim => {
+                const name = anim.name;
+                
+                const match = name.match(/(.+?)(_[AM])/);
+                let displayName = name;
+                let isSet = false;
+                let baseName = name;
+
+                if (match) {
+                    baseName = match[1];
+                    displayName = baseName;
+                    isSet = true;
+                    
+                    if (processedBases.has(baseName)) return;
+                    processedBases.add(baseName);
+                }
+
+                const btn = document.createElement("button");
+                btn.textContent = displayName;
+
+                btn.onclick = () => {
+                    Array.from(list.children).forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    if (isSet) {
+                        const animM = baseName + "_M";
+                        const animA = baseName + "_A";
+
+                        player.animationState.setAnimation(1, animM, true);
+                        if (animNames.includes(animA)) {
+                            player.animationState.setAnimation(2, animA, true);
+                        }
+                    }
+                    else {
+                        player.animationState.setAnimation(1, name, true);
+                        player.animationState.setEmptyAnimation(2, 0.2);
+                    }
+                };
+                list.appendChild(btn);
+            });
         }
 
         async function takeScreenshot() {
@@ -555,7 +755,7 @@
                 );
 
                 const link = document.createElement('a');
-                link.download = `spine_capture_${Date.now()}.png`;
+                link.download = `${selectedCharacter}.png`;
                 link.href = tempCanvas.toDataURL("image/png");
                 link.click();
             });
@@ -574,26 +774,21 @@
                 backgroundColor: "#00000000",
                 alpha: false,
                 preserveDrawingBuffer: true,
+                showLoading: false,
                 viewport: {
                     autoSize: true,
                     padLeft: "1%", padRight: "1%", padTop: "1%", padBottom: "1%"
                 },
                 success: function(p) {
                     enableCanvasWheelScale(p);
-                    if(selectedCharacter!=="terramachina_spr")
+                    try{
                         p.animationState.setAnimation(0, "Idle_01", true);
-                    else
-                        p.animationState.setAnimation(0, "00", true);
-                    if(!isMobile){
-                        p.canvas.style.transformOrigin = "center center";
-                        p.canvas.style.width = "200% !important";
-                        p.canvas.style.height = "200% !important";
-                        p.canvas.style.left = "-50%";
-                        p.canvas.style.top = "-50%";
-                        p.canvas.style.transform = "scale(0.5);";
                     }
-                    buildSlotOpacityList(p)
+                    catch(e){
+                        p.animationState.setAnimation(0, "00", true);
+                    }
                     buildAnimationList(p);
+                    buildSlotOpacityList(p);
                 }
             });
         }
