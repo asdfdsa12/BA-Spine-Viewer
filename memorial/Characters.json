@@ -1,7 +1,7 @@
 {
     "characters": [
-        {"id": "CH0368_home", "name": "코코로", "new": true},
-        {"id": "CH0369_home", "name": "코토네", "new": true},
+        {"id": "CH0328_home", "name": "카스미(수영복)", "new":true},
+        {"id": "SC221000_01", "name": "2부 Vol.1 1장 컷씬_2", "new":true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
@@ -223,6 +223,8 @@
         {"id": "CH0198_home", "name": "코유키"},
         {"id": "CH0310_home", "name": "코유키(파자마)"},
         {"id": "CH0137_home", "name": "코코나"},
+        {"id": "CH0368_home", "name": "코코로"},
+        {"id": "CH0369_home", "name": "코토네"},
         {"id": "Kotori_home", "name": "코토리"},
         {"id": "CH0185_home", "name": "코토리(응원단)"},
         {"id": "Kotama_home", "name": "코타마"},
