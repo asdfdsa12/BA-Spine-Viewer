@@ -1,7 +1,7 @@
 {
     "characters": [
-        {"id": "CH0328_home", "name": "카스미(수영복)", "new":true},
-        {"id": "SC221000_01", "name": "2부 Vol.1 1장 컷씬_2", "new":true},
+        {"id": "CH0320_home", "name": "안나", "new": true},
+        {"id": "CH0321_home", "name": "에리나", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
@@ -209,6 +209,7 @@
         {"id": "CH0282_home", "name": "카린(교복)"},
         {"id": "CH0100_home", "name": "카린(바니걸)"},
         {"id": "CH0089_home", "name": "카스미"},
+        {"id": "CH0328_home", "name": "카스미(수영복)"},
         {"id": "Kaede_home", "name": "카에데"},
         {"id": "Kayoko_home", "name": "카요코"},
         {"id": "CH0239_home", "name": "카요코(드레스)"},
@@ -299,6 +300,7 @@
         {"id": "SC62000_01", "name": "1부 Vol.6 2장 컷씬"},
         {"id": "SC63000_01", "name": "1부 Vol.6 3장 컷씬"},
         {"id": "SC211000_01", "name": "2부 Vol.1 1장 컷씬"},
+        {"id": "SC221000_01", "name": "2부 Vol.1 1장 컷씬_2"},
         {"id": "SC90002000_01", "name": "Ex. 데카그라마톤 3장 컷씬_1"},
         {"id": "SC90002000_02", "name": "Ex. 데카그라마톤 3장 컷씬_2"},
         {"id": "SC90002000_03", "name": "Ex. 데카그라마톤 3장 컷씬_3"},
