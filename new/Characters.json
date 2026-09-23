@@ -1,8 +1,8 @@
 {
     "characters": [
-        {"id": "CH322_spr", "name": "라나", "new": true},
-        {"id": "CH320_spr", "name": "안나", "new": true},
-        {"id": "CH321_spr", "name": "에리나", "new": true},
+        {"id": "CH0322_spr", "name": "라나", "new": true},
+        {"id": "CH0320_spr", "name": "안나", "new": true},
+        {"id": "CH0321_spr", "name": "에리나", "new": true},
         {"id": "NP0305_spr", "name": "모브(붉은겨울)_2"},
         {"id": "NP0290_spr", "name": "가짜 총학생회장"},
         {"id": "CH0366_spr", "name": "나고미"},
