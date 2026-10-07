@@ -1,7 +1,6 @@
 {
     "characters": [
-        {"id": "CH0320_home", "name": "안나", "new": true},
-        {"id": "CH0321_home", "name": "에리나", "new": true},
+        {"id": "CH0252_home", "name": "츠무기", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
@@ -145,9 +144,11 @@
         {"id": "CH0196_home", "name": "아카리(새해)"},
         {"id": "Ako_home", "name": "아코"},
         {"id": "CH0231_home", "name": "아코(드레스)"},
+        {"id": "CH0320_home", "name": "안나"},
         {"id": "CH0228_home", "name": "야쿠모"},
         {"id": "CH0304_home", "name": "에리"},
         {"id": "erika_home", "name": "에리카"},
+        {"id": "CH0321_home", "name": "에리나"},
         {"id": "Eimi_home", "name": "에이미"},
         {"id": "CH0337_home", "name": "에이미(무장)"},
         {"id": "CH0219_home", "name": "에이미(수영복)"},
