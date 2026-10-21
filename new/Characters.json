@@ -1,7 +1,7 @@
 {
     "characters": [
-        {"id": "CH0252_spr", "name": "츠무기", "new": true},
-        {"id": "NP0305_spr", "name": "모브(붉은겨울)_2"},
+        {"id": "NP0306_spr", "name": "오토기(승무원)", "new": true},
+        {"id": "NP0307_spr", "name": "쿠루미(승무원)", "new": true},
         {"id": "NP0290_spr", "name": "가짜 총학생회장"},
         {"id": "CH0366_spr", "name": "나고미"},
         {"id": "CH0222_spr", "name": "나구사"},
@@ -357,6 +357,7 @@
         {"id": "CH0060_spr", "name": "츠루기(수영복)"},
         {"id": "NP0223_spr", "name": "츠루기(연극)"},
         {"id": "NP0058_spr", "name": "츠루기(체육복)"},
+        {"id": "CH0252_spr", "name": "츠무기"},
         {"id": "CH0351_spr", "name": "츠바사"},
         {"id": "tsubaki_spr", "name": "츠바키"},
         {"id": "CH0255_spr", "name": "츠바키(가이드)"},
@@ -562,6 +563,7 @@
         {"id": "NP0150_spr", "name": "모브(백귀야행)"},
         {"id": "NP0156_spr", "name": "모브(백귀야행)_2"},
         {"id": "royalguard_redwinter1_spr", "name": "모브(붉은겨울)"},
+        {"id": "NP0305_spr", "name": "모브(붉은겨울)_2"},
         {"id": "NP0152_spr", "name": "모브(산해경)"},
         {"id": "NP0157_spr", "name": "모브(산해경)_2"},
         {"id": "fuuki_normal1_spr", "name": "모브(선도부)"},
