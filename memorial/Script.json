@@ -3883,6 +3883,28 @@
                     "script": "일어나는 반응이, 서로 같으면 좋겠다, 라고 생각해서요.\n콜록, 내가 뭐래! 저, 감기 걸려서 제정신이 아니네요! 아하하……! 하하……."
                 }
             ],
+            "CH0322_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                { 
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
             "CH0325_home": [
                 {
                     "animation": "Talk_01",
@@ -4327,6 +4349,50 @@
                 {
                     "animation": "Talk_05",
                     "script": "선생님. 선생님도 나와 함께 이 위에 누워 보지 않을래?\n내가…… 수면 아래의 이야기를 잔뜩 들려 줄게."
+                }
+            ],
+            "CH0379_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                { 
+                    "animation": "Talk_05",
+                    "script": ""
+                }
+            ],
+            "CH0380_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
+                },
+                { 
+                    "animation": "Talk_05",
+                    "script": ""
                 }
             ],
             "CH9996_home": [
