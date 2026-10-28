@@ -1,6 +1,8 @@
 {
     "characters": [
-        {"id": "CH0252_home", "name": "츠무기", "new": true},
+        {"id": "CH0322_home", "name": "라나", "new": true},
+        {"id": "CH0380_home", "name": "아즈사(레이싱)", "new": true},
+        {"id": "CH0379_home", "name": "히후미(레이싱)", "new": true},
         {"id": "CH0222_home", "name": "나구사"},
         {"id": "CH0303_home", "name": "나구사(수영복)"},
         {"id": "Nagisa_home", "name": "나기사"},
@@ -194,6 +196,7 @@
         {"id": "Tsurugi_home", "name": "츠루기"},
         {"id": "CH0060_home", "name": "츠루기(수영복)"},
         {"id": "CH0060BG_home", "name": "츠루기(수영복)_배경"},
+        {"id": "CH0252_home", "name": "츠무기"},
         {"id": "Tsubaki_home", "name": "츠바키"},
         {"id": "CH0255_home", "name": "츠바키(가이드)"},
         {"id": "CH0114_home", "name": "츠쿠요"},
