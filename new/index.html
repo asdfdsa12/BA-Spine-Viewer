@@ -26,7 +26,6 @@
             font-family: 'Noto Sans KR', sans-serif;
             margin: 0;
             overflow: hidden;
-            display: flex;
         }
 
         #menu-toggle, #menu-toggle_right {
@@ -72,13 +71,7 @@
         #sidebar.open { left: 0; }
         #sidebar_right.open { right: 0; }
 
-        #sidebar label {
-            font-family: 'Jua', 'Noto Sans KR', sans-serif;
-            font-size: 15px;
-            color: var(--ink-soft);
-        }
-
-        .slider-header span, .section-pill {
+        .slider-header span {
             display: inline-block;
             font-family: 'Jua', 'Noto Sans KR', sans-serif;
             font-weight: 400;
@@ -664,48 +657,6 @@
             sidebar.classList.toggle('open');
             toggleBtn.innerText = sidebar.classList.contains('open') ? "✕ 닫기" : "☰ 파츠 투명도";
         }
-
-        const searchInput = document.getElementById('charSearch');
-        const optionsList = document.getElementById('options-list');
-        const optionItems = document.querySelectorAll('.option-item');
-
-        searchInput.addEventListener('click', () => {
-            optionsList.classList.add('show');
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.search-container')) {
-                optionsList.classList.remove('show');
-            }
-        });
-
-        searchInput.addEventListener('input', function() {
-            const filter = this.value.toLowerCase();
-            optionsList.classList.add('show');
-            
-            optionItems.forEach(item => {
-                const text = item.textContent.toLowerCase();
-                if (text.includes(filter)) {
-                    item.classList.remove('hidden');
-                } else {
-                    item.classList.add('hidden');
-                }
-            });
-        });
-
-        searchInput.addEventListener('input', function() {
-            const filter = this.value.toLowerCase();
-            optionsList.classList.add('show');
-            
-            optionItems.forEach(item => {
-                const text = item.textContent.toLowerCase();
-                if (text.includes(filter)) {
-                    item.classList.remove('hidden');
-                } else {
-                    item.classList.add('hidden');
-                }
-            });
-        });
 
         async function takeScreenshot() {
             const canvas = document.querySelector('#player-container canvas');
