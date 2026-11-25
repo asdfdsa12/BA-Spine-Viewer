@@ -4149,26 +4149,48 @@
                     "script": "나, 선생님과 만나서, 정말로 좋았던 것 같아. 응. 진심으로, 그렇게 생각해."
                 }
             ],
-            "CH0344_home": [
+            "CH0339_home": [
                 {
                     "animation": "Talk_01",
-                    "script": "나는 언제나 만마전과 게헨나의 공익을 대표하고 있지.\n그런 입장인 만큼, 나 자신의 욕심이나 감정을 둘러보는 것에 서툴렀는지 모른다."
+                    "script": ""
                 },
                 {
                     "animation": "Talk_02",
-                    "script": "그러나, 샬레의 선생이여. 이 제안은 만마전 의장으로서가 아닌, 좀 더 사적인 것이다.\n인정하지. 선생은 나에게 있어…… 조금 특별한 존재가 되었는지 모른다."
+                    "script": ""
                 },
                 {
                     "animation": "Talk_03",
-                    "script": "몇몇 가치를 포기해서라도, 반드시 쟁취해 내야만 하는 대상이 되고 말았다는 것을."
+                    "script": ""
                 },
                 {
                     "animation": "Talk_04",
-                    "script": "아니, 쟁탈……? 제패……? ……이런 마음을 뭐라 표현해야 할지 모르겠군."
+                    "script": ""
+                }
+            ],
+            "CH0340_home": [
+                {
+                    "animation": "Talk_01",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_02",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_03",
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_04",
+                    "script": ""
                 },
                 {
                     "animation": "Talk_05",
-                    "script": "그렇군. 굳이 말하자면. 당신을 갖고 싶다."
+                    "script": ""
+                },
+                {
+                    "animation": "Talk_06",
+                    "script": ""
                 }
             ],
             "CH0345_home": [

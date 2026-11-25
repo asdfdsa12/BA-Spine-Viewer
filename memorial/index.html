@@ -325,7 +325,7 @@
     
     <script>
         let player = null;
-        let selectedCharacter = "CH0322_home";
+        let selectedCharacter = null;
         let currentAudio = null;
 
         let scriptData = null;
@@ -350,7 +350,14 @@
 
                 listContainer.innerHTML = '';
 
-                data.characters.forEach(char => {
+                const characters = data.characters;
+                if (!Array.isArray(characters) || characters.length === 0) {
+                    return false;
+                }
+                selectedCharacter = characters[0].id;
+                searchInput.value = characters[0].name;
+
+                characters.forEach(char => {
                     const div = document.createElement('div');
                     div.className = 'option-item';
                     div.setAttribute('data-value', char.id);
@@ -403,8 +410,11 @@
                     });
                 });
 
+                return true;
+
             } catch (error) {
                 console.error("데이터 로드 실패:", error);
+                return false;
             }
         }
 
@@ -907,10 +917,9 @@
                 }
             });
         }
-        window.onload = () => {
-            initCharacterList();
-            loadSpine();
-            buildVoiceList()
+        window.onload = async () => {
+            buildVoiceList();
+            if (await initCharacterList()) loadSpine();
         };
     </script>
 </body>

@@ -292,7 +292,7 @@
     
     <script>
         let player = null;
-        let selectedCharacter = "CH0380_spr";
+        let selectedCharacter = null;
         let currentAudio = null;
 
         let url = `https://raw.githubusercontent.com/asdfdsa12/BA-Spine-Viewer-Asset/main/new/assets`;
@@ -307,7 +307,14 @@
 
                 listContainer.innerHTML = '';
 
-                data.characters.forEach(char => {
+                const characters = data.characters;
+                if (!Array.isArray(characters) || characters.length === 0) {
+                    return false;
+                }
+                selectedCharacter = characters[0].id;
+                searchInput.value = characters[0].name;
+
+                characters.forEach(char => {
                     const div = document.createElement('div');
                     div.className = 'option-item';
                     div.setAttribute('data-value', char.id);
@@ -360,8 +367,11 @@
                     });
                 });
 
+                return true;
+
             } catch (error) {
                 console.error("데이터 로드 실패:", error);
+                return false;
             }
         }
 
@@ -776,9 +786,8 @@
                 }
             });
         }
-        window.onload = () => {
-            initCharacterList();
-            loadSpine();
+        window.onload = async () => {
+            if (await initCharacterList()) loadSpine();
         };
     </script>
 </body>
